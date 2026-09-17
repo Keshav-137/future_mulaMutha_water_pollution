@@ -1,0 +1,41 @@
+Year,Season,Location_ID,Location_Name,Distance_km,Predicted_WPI,Trend_per_year,Trend_label
+2027,Monsoon,1,Mulshi Dam (Mula Source),0,3.53,0.067,stable
+2027,Post-Monsoon,1,Mulshi Dam (Mula Source),0,6.76,0.246,worsening
+2027,Winter,1,Mulshi Dam (Mula Source),0,7.79,0.229,worsening
+2027,Summer,1,Mulshi Dam (Mula Source),0,11.06,0.313,worsening
+2027,Monsoon,2,Pashan Lake Inflow,8,8.83,0.308,worsening
+2027,Post-Monsoon,2,Pashan Lake Inflow,8,11.22,-0.206,improving
+2027,Winter,2,Pashan Lake Inflow,8,18.66,0.578,worsening
+2027,Summer,2,Pashan Lake Inflow,8,21.27,0.417,worsening
+2027,Monsoon,3,Aundh,14,14.28,0.208,worsening
+2027,Post-Monsoon,3,Aundh,14,18.62,-0.497,improving
+2027,Winter,3,Aundh,14,31.64,0.77,worsening
+2027,Summer,3,Aundh,14,36.29,-0.044,stable
+2027,Monsoon,4,Bopodi,18,17.99,-0.003,stable
+2027,Post-Monsoon,4,Bopodi,18,31.51,0.368,worsening
+2027,Winter,4,Bopodi,18,40.3,0.609,worsening
+2027,Summer,4,Bopodi,18,48.8,-0.259,improving
+2027,Monsoon,5,Sangam Bridge (Mula-Mutha Confluence),21,13.69,-0.36,improving
+2027,Post-Monsoon,5,Sangam Bridge (Mula-Mutha Confluence),21,27.0,0.386,worsening
+2027,Winter,5,Sangam Bridge (Mula-Mutha Confluence),21,29.97,-0.2,improving
+2027,Summer,5,Sangam Bridge (Mula-Mutha Confluence),21,40.59,0.506,worsening
+2027,Monsoon,6,Bund Garden,24,25.4,0.672,worsening
+2027,Post-Monsoon,6,Bund Garden,24,35.34,0.321,worsening
+2027,Winter,6,Bund Garden,24,46.93,0.539,worsening
+2027,Summer,6,Bund Garden,24,65.38,1.101,worsening
+2027,Monsoon,7,Mundhwa,29,29.8,0.766,worsening
+2027,Post-Monsoon,7,Mundhwa,29,44.01,0.536,worsening
+2027,Winter,7,Mundhwa,29,61.25,0.716,worsening
+2027,Summer,7,Mundhwa,29,79.9,0.756,worsening
+2027,Monsoon,8,Kharadi,34,33.96,0.855,worsening
+2027,Post-Monsoon,8,Kharadi,34,53.41,0.475,worsening
+2027,Winter,8,Kharadi,34,71.79,0.956,worsening
+2027,Summer,8,Kharadi,34,89.74,0.604,worsening
+2027,Monsoon,9,Fursungi / Manjari,41,36.59,0.316,worsening
+2027,Post-Monsoon,9,Fursungi / Manjari,41,59.95,1.233,worsening
+2027,Winter,9,Fursungi / Manjari,41,75.57,0.498,worsening
+2027,Summer,9,Fursungi / Manjari,41,98.0,0.894,worsening
+2027,Monsoon,10,Confluence with Bhima River (Downstream Exit),52,29.39,0.274,worsening
+2027,Post-Monsoon,10,Confluence with Bhima River (Downstream Exit),52,47.29,0.349,worsening
+2027,Winter,10,Confluence with Bhima River (Downstream Exit),52,64.54,1.002,worsening
+2027,Summer,10,Confluence with Bhima River (Downstream Exit),52,83.09,1.204,worsening

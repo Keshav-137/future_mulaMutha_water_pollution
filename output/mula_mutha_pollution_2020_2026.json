@@ -1,0 +1,3182 @@
+{
+  "Mulshi Dam (Mula Source)": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 4.84,
+        "BOD_mgL": 4.46,
+        "COD_mgL": 12.89,
+        "DO_mgL": 8.62,
+        "FecalColiform_MPN100ml": 70,
+        "pH": 7.33,
+        "Nitrate_mgL": 2.37
+      },
+      "2021": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 2.21,
+        "BOD_mgL": 2.78,
+        "COD_mgL": 6.02,
+        "DO_mgL": 8.9,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.27,
+        "Nitrate_mgL": 1.68
+      },
+      "2022": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 2.0,
+        "BOD_mgL": 2.64,
+        "COD_mgL": 7.53,
+        "DO_mgL": 8.65,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.36,
+        "Nitrate_mgL": 0.69
+      },
+      "2023": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 2.0,
+        "BOD_mgL": 2.35,
+        "COD_mgL": 7.94,
+        "DO_mgL": 8.46,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.43,
+        "Nitrate_mgL": 1.29
+      },
+      "2024": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 4.02,
+        "BOD_mgL": 7.91,
+        "COD_mgL": 20.18,
+        "DO_mgL": 8.31,
+        "FecalColiform_MPN100ml": 112,
+        "pH": 7.24,
+        "Nitrate_mgL": 2.05
+      },
+      "2025": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 4.46,
+        "BOD_mgL": 6.41,
+        "COD_mgL": 13.45,
+        "DO_mgL": 8.24,
+        "FecalColiform_MPN100ml": 289,
+        "pH": 7.43,
+        "Nitrate_mgL": 0.92
+      },
+      "2026": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 3.29,
+        "BOD_mgL": 2.68,
+        "COD_mgL": 5.19,
+        "DO_mgL": 8.02,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.4,
+        "Nitrate_mgL": 1.53
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 7.52,
+        "BOD_mgL": 5.43,
+        "COD_mgL": 15.2,
+        "DO_mgL": 7.83,
+        "FecalColiform_MPN100ml": 219,
+        "pH": 7.35,
+        "Nitrate_mgL": 0.95
+      },
+      "2021": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 2.72,
+        "BOD_mgL": 3.81,
+        "COD_mgL": 5.99,
+        "DO_mgL": 7.91,
+        "FecalColiform_MPN100ml": 157,
+        "pH": 7.45,
+        "Nitrate_mgL": 1.41
+      },
+      "2022": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 2.95,
+        "BOD_mgL": 4.84,
+        "COD_mgL": 15.3,
+        "DO_mgL": 8.27,
+        "FecalColiform_MPN100ml": 571,
+        "pH": 7.41,
+        "Nitrate_mgL": 1.03
+      },
+      "2023": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 8.4,
+        "BOD_mgL": 5.57,
+        "COD_mgL": 13.83,
+        "DO_mgL": 7.79,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.35,
+        "Nitrate_mgL": 2.14
+      },
+      "2024": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 7.9,
+        "BOD_mgL": 7.53,
+        "COD_mgL": 17.76,
+        "DO_mgL": 8.37,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.38,
+        "Nitrate_mgL": 3.04
+      },
+      "2025": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 2.75,
+        "BOD_mgL": 4.3,
+        "COD_mgL": 11.77,
+        "DO_mgL": 8.38,
+        "FecalColiform_MPN100ml": 233,
+        "pH": 7.3,
+        "Nitrate_mgL": 1.45
+      },
+      "2026": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 8.15,
+        "BOD_mgL": 6.5,
+        "COD_mgL": 19.81,
+        "DO_mgL": 7.85,
+        "FecalColiform_MPN100ml": 1891,
+        "pH": 7.38,
+        "Nitrate_mgL": 1.55
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 3.29,
+        "BOD_mgL": 2.96,
+        "COD_mgL": 5.67,
+        "DO_mgL": 8.36,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.23,
+        "Nitrate_mgL": 2.13
+      },
+      "2021": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 7.54,
+        "BOD_mgL": 5.69,
+        "COD_mgL": 11.84,
+        "DO_mgL": 7.76,
+        "FecalColiform_MPN100ml": 224,
+        "pH": 7.43,
+        "Nitrate_mgL": 2.08
+      },
+      "2022": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 8.96,
+        "BOD_mgL": 9.23,
+        "COD_mgL": 23.93,
+        "DO_mgL": 8.34,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.39,
+        "Nitrate_mgL": 2.12
+      },
+      "2023": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 8.13,
+        "BOD_mgL": 6.12,
+        "COD_mgL": 13.08,
+        "DO_mgL": 7.8,
+        "FecalColiform_MPN100ml": 357,
+        "pH": 7.24,
+        "Nitrate_mgL": 1.9
+      },
+      "2024": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 5.7,
+        "BOD_mgL": 4.28,
+        "COD_mgL": 11.33,
+        "DO_mgL": 7.95,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.35,
+        "Nitrate_mgL": 1.15
+      },
+      "2025": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 8.95,
+        "BOD_mgL": 5.85,
+        "COD_mgL": 18.94,
+        "DO_mgL": 8.02,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.38,
+        "Nitrate_mgL": 1.59
+      },
+      "2026": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 5.57,
+        "BOD_mgL": 5.79,
+        "COD_mgL": 14.61,
+        "DO_mgL": 8.32,
+        "FecalColiform_MPN100ml": 485,
+        "pH": 7.34,
+        "Nitrate_mgL": 1.25
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 9.44,
+        "BOD_mgL": 7.29,
+        "COD_mgL": 16.1,
+        "DO_mgL": 7.68,
+        "FecalColiform_MPN100ml": 767,
+        "pH": 7.19,
+        "Nitrate_mgL": 2.32
+      },
+      "2021": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 5.89,
+        "BOD_mgL": 5.73,
+        "COD_mgL": 14.13,
+        "DO_mgL": 7.88,
+        "FecalColiform_MPN100ml": 583,
+        "pH": 7.44,
+        "Nitrate_mgL": 2.17
+      },
+      "2022": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 9.85,
+        "BOD_mgL": 7.56,
+        "COD_mgL": 15.68,
+        "DO_mgL": 7.74,
+        "FecalColiform_MPN100ml": 955,
+        "pH": 7.45,
+        "Nitrate_mgL": 1.92
+      },
+      "2023": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 11.69,
+        "BOD_mgL": 11.26,
+        "COD_mgL": 29.63,
+        "DO_mgL": 7.76,
+        "FecalColiform_MPN100ml": 1056,
+        "pH": 7.09,
+        "Nitrate_mgL": 2.39
+      },
+      "2024": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 11.94,
+        "BOD_mgL": 7.19,
+        "COD_mgL": 21.79,
+        "DO_mgL": 7.43,
+        "FecalColiform_MPN100ml": 978,
+        "pH": 7.36,
+        "Nitrate_mgL": 1.82
+      },
+      "2025": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 12.78,
+        "BOD_mgL": 10.77,
+        "COD_mgL": 26.36,
+        "DO_mgL": 7.89,
+        "FecalColiform_MPN100ml": 1512,
+        "pH": 7.35,
+        "Nitrate_mgL": 3.48
+      },
+      "2026": {
+        "Location_ID": 1,
+        "Distance_km": 0,
+        "WPI": 7.07,
+        "BOD_mgL": 5.22,
+        "COD_mgL": 15.28,
+        "DO_mgL": 8.07,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.35,
+        "Nitrate_mgL": 2.04
+      }
+    }
+  },
+  "Pashan Lake Inflow": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 4.54,
+        "BOD_mgL": 4.73,
+        "COD_mgL": 12.41,
+        "DO_mgL": 7.84,
+        "FecalColiform_MPN100ml": 343,
+        "pH": 7.41,
+        "Nitrate_mgL": 2.09
+      },
+      "2021": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 5.77,
+        "BOD_mgL": 6.81,
+        "COD_mgL": 17.83,
+        "DO_mgL": 7.77,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.41,
+        "Nitrate_mgL": 1.33
+      },
+      "2022": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 12.46,
+        "BOD_mgL": 10.4,
+        "COD_mgL": 24.0,
+        "DO_mgL": 7.48,
+        "FecalColiform_MPN100ml": 1875,
+        "pH": 7.2,
+        "Nitrate_mgL": 2.72
+      },
+      "2023": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 7.49,
+        "BOD_mgL": 7.11,
+        "COD_mgL": 21.66,
+        "DO_mgL": 7.6,
+        "FecalColiform_MPN100ml": 1515,
+        "pH": 7.13,
+        "Nitrate_mgL": 1.82
+      },
+      "2024": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 8.63,
+        "BOD_mgL": 6.44,
+        "COD_mgL": 16.31,
+        "DO_mgL": 8.23,
+        "FecalColiform_MPN100ml": 1007,
+        "pH": 7.4,
+        "Nitrate_mgL": 2.69
+      },
+      "2025": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 5.23,
+        "BOD_mgL": 4.4,
+        "COD_mgL": 12.27,
+        "DO_mgL": 7.96,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.37,
+        "Nitrate_mgL": 1.75
+      },
+      "2026": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 9.05,
+        "BOD_mgL": 6.38,
+        "COD_mgL": 17.04,
+        "DO_mgL": 7.87,
+        "FecalColiform_MPN100ml": 704,
+        "pH": 7.23,
+        "Nitrate_mgL": 2.1
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 13.13,
+        "BOD_mgL": 7.16,
+        "COD_mgL": 16.74,
+        "DO_mgL": 7.74,
+        "FecalColiform_MPN100ml": 1637,
+        "pH": 7.32,
+        "Nitrate_mgL": 4.5
+      },
+      "2021": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 11.36,
+        "BOD_mgL": 8.31,
+        "COD_mgL": 20.3,
+        "DO_mgL": 8.35,
+        "FecalColiform_MPN100ml": 1348,
+        "pH": 7.08,
+        "Nitrate_mgL": 2.46
+      },
+      "2022": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 13.07,
+        "BOD_mgL": 7.8,
+        "COD_mgL": 20.16,
+        "DO_mgL": 6.61,
+        "FecalColiform_MPN100ml": 853,
+        "pH": 7.24,
+        "Nitrate_mgL": 1.94
+      },
+      "2023": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 12.69,
+        "BOD_mgL": 9.4,
+        "COD_mgL": 23.19,
+        "DO_mgL": 7.55,
+        "FecalColiform_MPN100ml": 1041,
+        "pH": 7.21,
+        "Nitrate_mgL": 2.95
+      },
+      "2024": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 11.34,
+        "BOD_mgL": 9.26,
+        "COD_mgL": 23.46,
+        "DO_mgL": 7.8,
+        "FecalColiform_MPN100ml": 964,
+        "pH": 7.3,
+        "Nitrate_mgL": 2.66
+      },
+      "2025": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 10.08,
+        "BOD_mgL": 6.84,
+        "COD_mgL": 18.25,
+        "DO_mgL": 7.36,
+        "FecalColiform_MPN100ml": 109,
+        "pH": 7.23,
+        "Nitrate_mgL": 2.1
+      },
+      "2026": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 12.64,
+        "BOD_mgL": 11.13,
+        "COD_mgL": 30.86,
+        "DO_mgL": 8.26,
+        "FecalColiform_MPN100ml": 895,
+        "pH": 7.36,
+        "Nitrate_mgL": 2.61
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 15.68,
+        "BOD_mgL": 12.33,
+        "COD_mgL": 33.97,
+        "DO_mgL": 7.6,
+        "FecalColiform_MPN100ml": 1808,
+        "pH": 7.32,
+        "Nitrate_mgL": 2.49
+      },
+      "2021": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 13.02,
+        "BOD_mgL": 10.44,
+        "COD_mgL": 25.56,
+        "DO_mgL": 7.55,
+        "FecalColiform_MPN100ml": 1609,
+        "pH": 7.36,
+        "Nitrate_mgL": 1.96
+      },
+      "2022": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 19.19,
+        "BOD_mgL": 10.41,
+        "COD_mgL": 26.19,
+        "DO_mgL": 7.2,
+        "FecalColiform_MPN100ml": 3665,
+        "pH": 7.06,
+        "Nitrate_mgL": 3.88
+      },
+      "2023": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 16.11,
+        "BOD_mgL": 9.82,
+        "COD_mgL": 27.33,
+        "DO_mgL": 7.46,
+        "FecalColiform_MPN100ml": 2483,
+        "pH": 7.3,
+        "Nitrate_mgL": 2.52
+      },
+      "2024": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 13.28,
+        "BOD_mgL": 12.44,
+        "COD_mgL": 30.33,
+        "DO_mgL": 7.21,
+        "FecalColiform_MPN100ml": 1989,
+        "pH": 7.35,
+        "Nitrate_mgL": 2.91
+      },
+      "2025": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 16.18,
+        "BOD_mgL": 13.11,
+        "COD_mgL": 35.8,
+        "DO_mgL": 7.32,
+        "FecalColiform_MPN100ml": 2085,
+        "pH": 7.14,
+        "Nitrate_mgL": 2.93
+      },
+      "2026": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 20.94,
+        "BOD_mgL": 12.31,
+        "COD_mgL": 30.33,
+        "DO_mgL": 6.85,
+        "FecalColiform_MPN100ml": 2447,
+        "pH": 7.14,
+        "Nitrate_mgL": 3.13
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 18.16,
+        "BOD_mgL": 11.26,
+        "COD_mgL": 29.44,
+        "DO_mgL": 7.92,
+        "FecalColiform_MPN100ml": 1704,
+        "pH": 7.29,
+        "Nitrate_mgL": 2.37
+      },
+      "2021": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 18.48,
+        "BOD_mgL": 11.45,
+        "COD_mgL": 28.46,
+        "DO_mgL": 7.74,
+        "FecalColiform_MPN100ml": 2933,
+        "pH": 7.09,
+        "Nitrate_mgL": 3.68
+      },
+      "2022": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 19.9,
+        "BOD_mgL": 11.47,
+        "COD_mgL": 30.75,
+        "DO_mgL": 7.17,
+        "FecalColiform_MPN100ml": 2868,
+        "pH": 7.21,
+        "Nitrate_mgL": 3.2
+      },
+      "2023": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 18.63,
+        "BOD_mgL": 13.37,
+        "COD_mgL": 35.98,
+        "DO_mgL": 7.19,
+        "FecalColiform_MPN100ml": 2834,
+        "pH": 7.34,
+        "Nitrate_mgL": 2.94
+      },
+      "2024": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 21.73,
+        "BOD_mgL": 13.93,
+        "COD_mgL": 34.42,
+        "DO_mgL": 7.0,
+        "FecalColiform_MPN100ml": 3439,
+        "pH": 7.28,
+        "Nitrate_mgL": 3.53
+      },
+      "2025": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 19.55,
+        "BOD_mgL": 13.23,
+        "COD_mgL": 32.74,
+        "DO_mgL": 7.29,
+        "FecalColiform_MPN100ml": 3823,
+        "pH": 7.19,
+        "Nitrate_mgL": 3.55
+      },
+      "2026": {
+        "Location_ID": 2,
+        "Distance_km": 8,
+        "WPI": 20.73,
+        "BOD_mgL": 13.91,
+        "COD_mgL": 39.92,
+        "DO_mgL": 7.33,
+        "FecalColiform_MPN100ml": 3149,
+        "pH": 7.1,
+        "Nitrate_mgL": 3.73
+      }
+    }
+  },
+  "Aundh": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 9.3,
+        "BOD_mgL": 9.86,
+        "COD_mgL": 27.99,
+        "DO_mgL": 7.71,
+        "FecalColiform_MPN100ml": 50,
+        "pH": 7.44,
+        "Nitrate_mgL": 2.06
+      },
+      "2021": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 18.13,
+        "BOD_mgL": 14.6,
+        "COD_mgL": 37.46,
+        "DO_mgL": 7.52,
+        "FecalColiform_MPN100ml": 2952,
+        "pH": 7.36,
+        "Nitrate_mgL": 2.69
+      },
+      "2022": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 12.07,
+        "BOD_mgL": 7.05,
+        "COD_mgL": 18.2,
+        "DO_mgL": 7.94,
+        "FecalColiform_MPN100ml": 672,
+        "pH": 7.33,
+        "Nitrate_mgL": 2.18
+      },
+      "2023": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 14.9,
+        "BOD_mgL": 10.66,
+        "COD_mgL": 33.87,
+        "DO_mgL": 7.79,
+        "FecalColiform_MPN100ml": 1712,
+        "pH": 7.16,
+        "Nitrate_mgL": 1.98
+      },
+      "2024": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 11.92,
+        "BOD_mgL": 7.83,
+        "COD_mgL": 19.17,
+        "DO_mgL": 7.41,
+        "FecalColiform_MPN100ml": 1161,
+        "pH": 7.2,
+        "Nitrate_mgL": 2.57
+      },
+      "2025": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 13.46,
+        "BOD_mgL": 7.58,
+        "COD_mgL": 18.4,
+        "DO_mgL": 7.57,
+        "FecalColiform_MPN100ml": 1018,
+        "pH": 7.23,
+        "Nitrate_mgL": 3.12
+      },
+      "2026": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 14.4,
+        "BOD_mgL": 13.03,
+        "COD_mgL": 35.62,
+        "DO_mgL": 7.39,
+        "FecalColiform_MPN100ml": 2260,
+        "pH": 7.22,
+        "Nitrate_mgL": 1.71
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 22.69,
+        "BOD_mgL": 12.09,
+        "COD_mgL": 30.24,
+        "DO_mgL": 6.91,
+        "FecalColiform_MPN100ml": 4143,
+        "pH": 7.13,
+        "Nitrate_mgL": 4.03
+      },
+      "2021": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 21.9,
+        "BOD_mgL": 15.63,
+        "COD_mgL": 37.12,
+        "DO_mgL": 6.61,
+        "FecalColiform_MPN100ml": 2818,
+        "pH": 7.15,
+        "Nitrate_mgL": 3.99
+      },
+      "2022": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 18.79,
+        "BOD_mgL": 12.18,
+        "COD_mgL": 29.6,
+        "DO_mgL": 7.02,
+        "FecalColiform_MPN100ml": 2226,
+        "pH": 7.41,
+        "Nitrate_mgL": 3.27
+      },
+      "2023": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 21.45,
+        "BOD_mgL": 12.66,
+        "COD_mgL": 30.07,
+        "DO_mgL": 6.8,
+        "FecalColiform_MPN100ml": 3138,
+        "pH": 7.35,
+        "Nitrate_mgL": 4.01
+      },
+      "2024": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 20.95,
+        "BOD_mgL": 13.16,
+        "COD_mgL": 32.4,
+        "DO_mgL": 6.86,
+        "FecalColiform_MPN100ml": 3888,
+        "pH": 7.24,
+        "Nitrate_mgL": 3.03
+      },
+      "2025": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 19.75,
+        "BOD_mgL": 14.11,
+        "COD_mgL": 34.43,
+        "DO_mgL": 7.28,
+        "FecalColiform_MPN100ml": 3839,
+        "pH": 6.96,
+        "Nitrate_mgL": 2.97
+      },
+      "2026": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 18.76,
+        "BOD_mgL": 9.51,
+        "COD_mgL": 24.02,
+        "DO_mgL": 7.19,
+        "FecalColiform_MPN100ml": 3652,
+        "pH": 7.25,
+        "Nitrate_mgL": 3.14
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 23.93,
+        "BOD_mgL": 14.95,
+        "COD_mgL": 39.11,
+        "DO_mgL": 6.98,
+        "FecalColiform_MPN100ml": 4937,
+        "pH": 7.05,
+        "Nitrate_mgL": 3.1
+      },
+      "2021": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 31.15,
+        "BOD_mgL": 19.25,
+        "COD_mgL": 53.31,
+        "DO_mgL": 5.91,
+        "FecalColiform_MPN100ml": 6912,
+        "pH": 7.08,
+        "Nitrate_mgL": 4.93
+      },
+      "2022": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 26.45,
+        "BOD_mgL": 16.87,
+        "COD_mgL": 43.64,
+        "DO_mgL": 6.58,
+        "FecalColiform_MPN100ml": 5902,
+        "pH": 7.21,
+        "Nitrate_mgL": 3.91
+      },
+      "2023": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 28.39,
+        "BOD_mgL": 19.84,
+        "COD_mgL": 51.74,
+        "DO_mgL": 6.25,
+        "FecalColiform_MPN100ml": 7211,
+        "pH": 7.17,
+        "Nitrate_mgL": 3.89
+      },
+      "2024": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 28.85,
+        "BOD_mgL": 18.99,
+        "COD_mgL": 46.04,
+        "DO_mgL": 6.64,
+        "FecalColiform_MPN100ml": 6326,
+        "pH": 7.17,
+        "Nitrate_mgL": 4.08
+      },
+      "2025": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 30.2,
+        "BOD_mgL": 18.3,
+        "COD_mgL": 48.32,
+        "DO_mgL": 6.2,
+        "FecalColiform_MPN100ml": 7338,
+        "pH": 7.08,
+        "Nitrate_mgL": 5.21
+      },
+      "2026": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 30.95,
+        "BOD_mgL": 15.71,
+        "COD_mgL": 41.32,
+        "DO_mgL": 6.56,
+        "FecalColiform_MPN100ml": 6924,
+        "pH": 7.2,
+        "Nitrate_mgL": 4.88
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 38.19,
+        "BOD_mgL": 23.51,
+        "COD_mgL": 59.63,
+        "DO_mgL": 6.29,
+        "FecalColiform_MPN100ml": 11728,
+        "pH": 7.14,
+        "Nitrate_mgL": 5.62
+      },
+      "2021": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 35.97,
+        "BOD_mgL": 18.68,
+        "COD_mgL": 48.39,
+        "DO_mgL": 5.59,
+        "FecalColiform_MPN100ml": 10684,
+        "pH": 7.08,
+        "Nitrate_mgL": 4.85
+      },
+      "2022": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 35.66,
+        "BOD_mgL": 21.2,
+        "COD_mgL": 50.52,
+        "DO_mgL": 5.55,
+        "FecalColiform_MPN100ml": 10856,
+        "pH": 7.21,
+        "Nitrate_mgL": 5.15
+      },
+      "2023": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 36.91,
+        "BOD_mgL": 20.99,
+        "COD_mgL": 51.81,
+        "DO_mgL": 6.19,
+        "FecalColiform_MPN100ml": 11854,
+        "pH": 6.89,
+        "Nitrate_mgL": 5.71
+      },
+      "2024": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 33.12,
+        "BOD_mgL": 17.77,
+        "COD_mgL": 46.3,
+        "DO_mgL": 6.26,
+        "FecalColiform_MPN100ml": 8323,
+        "pH": 7.13,
+        "Nitrate_mgL": 4.14
+      },
+      "2025": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 38.47,
+        "BOD_mgL": 23.67,
+        "COD_mgL": 60.72,
+        "DO_mgL": 5.66,
+        "FecalColiform_MPN100ml": 11623,
+        "pH": 7.05,
+        "Nitrate_mgL": 5.41
+      },
+      "2026": {
+        "Location_ID": 3,
+        "Distance_km": 14,
+        "WPI": 36.96,
+        "BOD_mgL": 23.28,
+        "COD_mgL": 65.07,
+        "DO_mgL": 5.97,
+        "FecalColiform_MPN100ml": 11051,
+        "pH": 6.98,
+        "Nitrate_mgL": 5.01
+      }
+    }
+  },
+  "Bopodi": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 19.18,
+        "BOD_mgL": 11.26,
+        "COD_mgL": 29.42,
+        "DO_mgL": 7.01,
+        "FecalColiform_MPN100ml": 3181,
+        "pH": 7.24,
+        "Nitrate_mgL": 3.82
+      },
+      "2021": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 17.89,
+        "BOD_mgL": 12.93,
+        "COD_mgL": 34.58,
+        "DO_mgL": 7.32,
+        "FecalColiform_MPN100ml": 2164,
+        "pH": 7.27,
+        "Nitrate_mgL": 4.09
+      },
+      "2022": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 17.51,
+        "BOD_mgL": 11.22,
+        "COD_mgL": 23.78,
+        "DO_mgL": 7.26,
+        "FecalColiform_MPN100ml": 2337,
+        "pH": 7.29,
+        "Nitrate_mgL": 4.03
+      },
+      "2023": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 17.41,
+        "BOD_mgL": 11.02,
+        "COD_mgL": 25.84,
+        "DO_mgL": 7.05,
+        "FecalColiform_MPN100ml": 1869,
+        "pH": 7.4,
+        "Nitrate_mgL": 3.56
+      },
+      "2024": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 17.08,
+        "BOD_mgL": 12.97,
+        "COD_mgL": 32.31,
+        "DO_mgL": 6.88,
+        "FecalColiform_MPN100ml": 1555,
+        "pH": 7.29,
+        "Nitrate_mgL": 2.41
+      },
+      "2025": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 17.14,
+        "BOD_mgL": 10.26,
+        "COD_mgL": 27.07,
+        "DO_mgL": 7.01,
+        "FecalColiform_MPN100ml": 2553,
+        "pH": 7.06,
+        "Nitrate_mgL": 3.57
+      },
+      "2026": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 19.8,
+        "BOD_mgL": 13.17,
+        "COD_mgL": 32.53,
+        "DO_mgL": 7.32,
+        "FecalColiform_MPN100ml": 2847,
+        "pH": 7.21,
+        "Nitrate_mgL": 4.66
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 25.32,
+        "BOD_mgL": 15.52,
+        "COD_mgL": 38.39,
+        "DO_mgL": 6.59,
+        "FecalColiform_MPN100ml": 5319,
+        "pH": 7.22,
+        "Nitrate_mgL": 3.58
+      },
+      "2021": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 30.76,
+        "BOD_mgL": 21.31,
+        "COD_mgL": 54.38,
+        "DO_mgL": 6.05,
+        "FecalColiform_MPN100ml": 7507,
+        "pH": 7.1,
+        "Nitrate_mgL": 5.24
+      },
+      "2022": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 31.01,
+        "BOD_mgL": 18.65,
+        "COD_mgL": 46.28,
+        "DO_mgL": 7.1,
+        "FecalColiform_MPN100ml": 7723,
+        "pH": 7.09,
+        "Nitrate_mgL": 4.71
+      },
+      "2023": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 31.59,
+        "BOD_mgL": 20.46,
+        "COD_mgL": 50.94,
+        "DO_mgL": 6.13,
+        "FecalColiform_MPN100ml": 8229,
+        "pH": 6.96,
+        "Nitrate_mgL": 5.15
+      },
+      "2024": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 32.99,
+        "BOD_mgL": 17.02,
+        "COD_mgL": 47.64,
+        "DO_mgL": 6.25,
+        "FecalColiform_MPN100ml": 8656,
+        "pH": 7.02,
+        "Nitrate_mgL": 5.16
+      },
+      "2025": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 29.94,
+        "BOD_mgL": 18.85,
+        "COD_mgL": 50.98,
+        "DO_mgL": 6.9,
+        "FecalColiform_MPN100ml": 7676,
+        "pH": 6.92,
+        "Nitrate_mgL": 3.95
+      },
+      "2026": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 28.64,
+        "BOD_mgL": 19.47,
+        "COD_mgL": 49.22,
+        "DO_mgL": 6.48,
+        "FecalColiform_MPN100ml": 7445,
+        "pH": 7.05,
+        "Nitrate_mgL": 5.34
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 38.27,
+        "BOD_mgL": 25.08,
+        "COD_mgL": 66.03,
+        "DO_mgL": 6.38,
+        "FecalColiform_MPN100ml": 11332,
+        "pH": 6.89,
+        "Nitrate_mgL": 4.7
+      },
+      "2021": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 32.95,
+        "BOD_mgL": 22.42,
+        "COD_mgL": 57.98,
+        "DO_mgL": 6.07,
+        "FecalColiform_MPN100ml": 8180,
+        "pH": 6.9,
+        "Nitrate_mgL": 5.37
+      },
+      "2022": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 38.76,
+        "BOD_mgL": 23.1,
+        "COD_mgL": 58.91,
+        "DO_mgL": 5.62,
+        "FecalColiform_MPN100ml": 12003,
+        "pH": 6.96,
+        "Nitrate_mgL": 5.29
+      },
+      "2023": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 37.96,
+        "BOD_mgL": 22.32,
+        "COD_mgL": 59.45,
+        "DO_mgL": 5.98,
+        "FecalColiform_MPN100ml": 11347,
+        "pH": 7.14,
+        "Nitrate_mgL": 5.01
+      },
+      "2024": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 38.72,
+        "BOD_mgL": 24.95,
+        "COD_mgL": 65.1,
+        "DO_mgL": 5.83,
+        "FecalColiform_MPN100ml": 11812,
+        "pH": 7.01,
+        "Nitrate_mgL": 5.8
+      },
+      "2025": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 37.46,
+        "BOD_mgL": 22.64,
+        "COD_mgL": 59.9,
+        "DO_mgL": 5.66,
+        "FecalColiform_MPN100ml": 11320,
+        "pH": 6.95,
+        "Nitrate_mgL": 5.19
+      },
+      "2026": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 40.96,
+        "BOD_mgL": 23.68,
+        "COD_mgL": 62.83,
+        "DO_mgL": 5.92,
+        "FecalColiform_MPN100ml": 13732,
+        "pH": 6.83,
+        "Nitrate_mgL": 5.55
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 51.24,
+        "BOD_mgL": 31.16,
+        "COD_mgL": 80.9,
+        "DO_mgL": 5.0,
+        "FecalColiform_MPN100ml": 20441,
+        "pH": 7.13,
+        "Nitrate_mgL": 7.21
+      },
+      "2021": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 49.11,
+        "BOD_mgL": 27.07,
+        "COD_mgL": 67.79,
+        "DO_mgL": 4.96,
+        "FecalColiform_MPN100ml": 20127,
+        "pH": 6.88,
+        "Nitrate_mgL": 6.14
+      },
+      "2022": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 50.62,
+        "BOD_mgL": 29.46,
+        "COD_mgL": 79.6,
+        "DO_mgL": 4.16,
+        "FecalColiform_MPN100ml": 21041,
+        "pH": 7.02,
+        "Nitrate_mgL": 6.04
+      },
+      "2023": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 52.28,
+        "BOD_mgL": 31.64,
+        "COD_mgL": 81.64,
+        "DO_mgL": 4.94,
+        "FecalColiform_MPN100ml": 21239,
+        "pH": 6.97,
+        "Nitrate_mgL": 7.18
+      },
+      "2024": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 46.8,
+        "BOD_mgL": 25.72,
+        "COD_mgL": 68.36,
+        "DO_mgL": 5.28,
+        "FecalColiform_MPN100ml": 17427,
+        "pH": 6.93,
+        "Nitrate_mgL": 6.79
+      },
+      "2025": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 47.83,
+        "BOD_mgL": 26.92,
+        "COD_mgL": 67.29,
+        "DO_mgL": 4.86,
+        "FecalColiform_MPN100ml": 18829,
+        "pH": 6.83,
+        "Nitrate_mgL": 8.06
+      },
+      "2026": {
+        "Location_ID": 4,
+        "Distance_km": 18,
+        "WPI": 50.95,
+        "BOD_mgL": 29.91,
+        "COD_mgL": 79.01,
+        "DO_mgL": 4.99,
+        "FecalColiform_MPN100ml": 20097,
+        "pH": 6.93,
+        "Nitrate_mgL": 7.42
+      }
+    }
+  },
+  "Sangam Bridge (Mula-Mutha Confluence)": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 14.9,
+        "BOD_mgL": 11.82,
+        "COD_mgL": 32.4,
+        "DO_mgL": 7.59,
+        "FecalColiform_MPN100ml": 1740,
+        "pH": 7.08,
+        "Nitrate_mgL": 3.0
+      },
+      "2021": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 17.52,
+        "BOD_mgL": 11.93,
+        "COD_mgL": 33.08,
+        "DO_mgL": 6.83,
+        "FecalColiform_MPN100ml": 2589,
+        "pH": 7.31,
+        "Nitrate_mgL": 3.14
+      },
+      "2022": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 14.19,
+        "BOD_mgL": 10.81,
+        "COD_mgL": 25.86,
+        "DO_mgL": 7.62,
+        "FecalColiform_MPN100ml": 1693,
+        "pH": 7.31,
+        "Nitrate_mgL": 2.85
+      },
+      "2023": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 16.07,
+        "BOD_mgL": 13.85,
+        "COD_mgL": 35.66,
+        "DO_mgL": 7.14,
+        "FecalColiform_MPN100ml": 1375,
+        "pH": 7.17,
+        "Nitrate_mgL": 2.91
+      },
+      "2024": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 14.1,
+        "BOD_mgL": 9.97,
+        "COD_mgL": 28.34,
+        "DO_mgL": 7.27,
+        "FecalColiform_MPN100ml": 1774,
+        "pH": 7.22,
+        "Nitrate_mgL": 2.71
+      },
+      "2025": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 17.58,
+        "BOD_mgL": 9.38,
+        "COD_mgL": 23.27,
+        "DO_mgL": 7.38,
+        "FecalColiform_MPN100ml": 3255,
+        "pH": 7.22,
+        "Nitrate_mgL": 2.83
+      },
+      "2026": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 11.53,
+        "BOD_mgL": 10.51,
+        "COD_mgL": 27.16,
+        "DO_mgL": 8.03,
+        "FecalColiform_MPN100ml": 1234,
+        "pH": 7.33,
+        "Nitrate_mgL": 2.67
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 21.52,
+        "BOD_mgL": 14.24,
+        "COD_mgL": 34.47,
+        "DO_mgL": 6.67,
+        "FecalColiform_MPN100ml": 4231,
+        "pH": 7.18,
+        "Nitrate_mgL": 3.92
+      },
+      "2021": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 24.29,
+        "BOD_mgL": 14.59,
+        "COD_mgL": 40.75,
+        "DO_mgL": 7.49,
+        "FecalColiform_MPN100ml": 4540,
+        "pH": 7.11,
+        "Nitrate_mgL": 4.64
+      },
+      "2022": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 28.4,
+        "BOD_mgL": 16.66,
+        "COD_mgL": 42.25,
+        "DO_mgL": 6.33,
+        "FecalColiform_MPN100ml": 6173,
+        "pH": 7.05,
+        "Nitrate_mgL": 5.0
+      },
+      "2023": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 26.92,
+        "BOD_mgL": 16.03,
+        "COD_mgL": 42.13,
+        "DO_mgL": 6.61,
+        "FecalColiform_MPN100ml": 6391,
+        "pH": 7.38,
+        "Nitrate_mgL": 3.96
+      },
+      "2024": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 25.78,
+        "BOD_mgL": 16.46,
+        "COD_mgL": 42.89,
+        "DO_mgL": 6.29,
+        "FecalColiform_MPN100ml": 5688,
+        "pH": 7.21,
+        "Nitrate_mgL": 5.17
+      },
+      "2025": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 27.4,
+        "BOD_mgL": 14.9,
+        "COD_mgL": 34.34,
+        "DO_mgL": 6.71,
+        "FecalColiform_MPN100ml": 5756,
+        "pH": 7.02,
+        "Nitrate_mgL": 4.64
+      },
+      "2026": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 23.92,
+        "BOD_mgL": 16.12,
+        "COD_mgL": 44.57,
+        "DO_mgL": 6.88,
+        "FecalColiform_MPN100ml": 4930,
+        "pH": 7.15,
+        "Nitrate_mgL": 4.59
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 28.57,
+        "BOD_mgL": 17.76,
+        "COD_mgL": 48.05,
+        "DO_mgL": 6.35,
+        "FecalColiform_MPN100ml": 6578,
+        "pH": 7.07,
+        "Nitrate_mgL": 4.21
+      },
+      "2021": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 33.3,
+        "BOD_mgL": 19.53,
+        "COD_mgL": 49.94,
+        "DO_mgL": 6.08,
+        "FecalColiform_MPN100ml": 8200,
+        "pH": 6.98,
+        "Nitrate_mgL": 4.49
+      },
+      "2022": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 33.76,
+        "BOD_mgL": 19.71,
+        "COD_mgL": 49.58,
+        "DO_mgL": 6.28,
+        "FecalColiform_MPN100ml": 8842,
+        "pH": 7.13,
+        "Nitrate_mgL": 5.15
+      },
+      "2023": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 29.22,
+        "BOD_mgL": 19.64,
+        "COD_mgL": 52.43,
+        "DO_mgL": 7.01,
+        "FecalColiform_MPN100ml": 7122,
+        "pH": 7.07,
+        "Nitrate_mgL": 4.8
+      },
+      "2024": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 29.87,
+        "BOD_mgL": 18.76,
+        "COD_mgL": 49.27,
+        "DO_mgL": 6.88,
+        "FecalColiform_MPN100ml": 7091,
+        "pH": 7.13,
+        "Nitrate_mgL": 4.89
+      },
+      "2025": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 31.42,
+        "BOD_mgL": 18.43,
+        "COD_mgL": 45.36,
+        "DO_mgL": 6.56,
+        "FecalColiform_MPN100ml": 8221,
+        "pH": 7.08,
+        "Nitrate_mgL": 5.69
+      },
+      "2026": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 29.25,
+        "BOD_mgL": 20.79,
+        "COD_mgL": 53.97,
+        "DO_mgL": 6.02,
+        "FecalColiform_MPN100ml": 6907,
+        "pH": 7.04,
+        "Nitrate_mgL": 4.93
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 36.73,
+        "BOD_mgL": 22.53,
+        "COD_mgL": 57.62,
+        "DO_mgL": 6.31,
+        "FecalColiform_MPN100ml": 10343,
+        "pH": 7.01,
+        "Nitrate_mgL": 5.19
+      },
+      "2021": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 36.71,
+        "BOD_mgL": 22.14,
+        "COD_mgL": 58.03,
+        "DO_mgL": 6.4,
+        "FecalColiform_MPN100ml": 10279,
+        "pH": 7.13,
+        "Nitrate_mgL": 5.3
+      },
+      "2022": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 35.96,
+        "BOD_mgL": 24.1,
+        "COD_mgL": 66.25,
+        "DO_mgL": 5.8,
+        "FecalColiform_MPN100ml": 10151,
+        "pH": 7.07,
+        "Nitrate_mgL": 5.48
+      },
+      "2023": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 42.83,
+        "BOD_mgL": 26.79,
+        "COD_mgL": 70.67,
+        "DO_mgL": 5.82,
+        "FecalColiform_MPN100ml": 15259,
+        "pH": 7.11,
+        "Nitrate_mgL": 6.46
+      },
+      "2024": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 40.79,
+        "BOD_mgL": 23.76,
+        "COD_mgL": 62.16,
+        "DO_mgL": 5.97,
+        "FecalColiform_MPN100ml": 12795,
+        "pH": 7.01,
+        "Nitrate_mgL": 5.54
+      },
+      "2025": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 37.86,
+        "BOD_mgL": 20.54,
+        "COD_mgL": 52.02,
+        "DO_mgL": 5.84,
+        "FecalColiform_MPN100ml": 11590,
+        "pH": 7.0,
+        "Nitrate_mgL": 5.72
+      },
+      "2026": {
+        "Location_ID": 5,
+        "Distance_km": 21,
+        "WPI": 39.08,
+        "BOD_mgL": 22.82,
+        "COD_mgL": 55.55,
+        "DO_mgL": 5.63,
+        "FecalColiform_MPN100ml": 11005,
+        "pH": 6.85,
+        "Nitrate_mgL": 6.07
+      }
+    }
+  },
+  "Bund Garden": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 22.21,
+        "BOD_mgL": 14.86,
+        "COD_mgL": 36.7,
+        "DO_mgL": 6.93,
+        "FecalColiform_MPN100ml": 3946,
+        "pH": 7.06,
+        "Nitrate_mgL": 4.42
+      },
+      "2021": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 23.48,
+        "BOD_mgL": 14.11,
+        "COD_mgL": 39.32,
+        "DO_mgL": 6.92,
+        "FecalColiform_MPN100ml": 5448,
+        "pH": 7.1,
+        "Nitrate_mgL": 4.69
+      },
+      "2022": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 18.4,
+        "BOD_mgL": 9.92,
+        "COD_mgL": 26.24,
+        "DO_mgL": 7.53,
+        "FecalColiform_MPN100ml": 3550,
+        "pH": 7.17,
+        "Nitrate_mgL": 3.75
+      },
+      "2023": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 20.72,
+        "BOD_mgL": 11.72,
+        "COD_mgL": 27.88,
+        "DO_mgL": 7.4,
+        "FecalColiform_MPN100ml": 3202,
+        "pH": 7.23,
+        "Nitrate_mgL": 3.46
+      },
+      "2024": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 23.59,
+        "BOD_mgL": 15.05,
+        "COD_mgL": 40.6,
+        "DO_mgL": 6.82,
+        "FecalColiform_MPN100ml": 4491,
+        "pH": 6.96,
+        "Nitrate_mgL": 4.29
+      },
+      "2025": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 24.65,
+        "BOD_mgL": 17.34,
+        "COD_mgL": 46.36,
+        "DO_mgL": 6.43,
+        "FecalColiform_MPN100ml": 5679,
+        "pH": 7.04,
+        "Nitrate_mgL": 4.11
+      },
+      "2026": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 25.97,
+        "BOD_mgL": 15.01,
+        "COD_mgL": 37.04,
+        "DO_mgL": 6.04,
+        "FecalColiform_MPN100ml": 5075,
+        "pH": 7.01,
+        "Nitrate_mgL": 4.94
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 33.69,
+        "BOD_mgL": 20.2,
+        "COD_mgL": 52.57,
+        "DO_mgL": 6.2,
+        "FecalColiform_MPN100ml": 8061,
+        "pH": 7.04,
+        "Nitrate_mgL": 4.7
+      },
+      "2021": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 32.94,
+        "BOD_mgL": 19.14,
+        "COD_mgL": 48.8,
+        "DO_mgL": 6.1,
+        "FecalColiform_MPN100ml": 8892,
+        "pH": 7.12,
+        "Nitrate_mgL": 4.67
+      },
+      "2022": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 33.29,
+        "BOD_mgL": 20.05,
+        "COD_mgL": 53.9,
+        "DO_mgL": 6.37,
+        "FecalColiform_MPN100ml": 8079,
+        "pH": 7.21,
+        "Nitrate_mgL": 5.69
+      },
+      "2023": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 34.84,
+        "BOD_mgL": 21.28,
+        "COD_mgL": 52.76,
+        "DO_mgL": 6.36,
+        "FecalColiform_MPN100ml": 9464,
+        "pH": 6.9,
+        "Nitrate_mgL": 4.97
+      },
+      "2024": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 34.74,
+        "BOD_mgL": 22.6,
+        "COD_mgL": 52.97,
+        "DO_mgL": 6.7,
+        "FecalColiform_MPN100ml": 9582,
+        "pH": 7.16,
+        "Nitrate_mgL": 4.65
+      },
+      "2025": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 32.17,
+        "BOD_mgL": 19.59,
+        "COD_mgL": 51.59,
+        "DO_mgL": 6.34,
+        "FecalColiform_MPN100ml": 8488,
+        "pH": 7.24,
+        "Nitrate_mgL": 5.09
+      },
+      "2026": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 36.72,
+        "BOD_mgL": 21.16,
+        "COD_mgL": 59.52,
+        "DO_mgL": 6.22,
+        "FecalColiform_MPN100ml": 10625,
+        "pH": 6.78,
+        "Nitrate_mgL": 6.55
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 40.25,
+        "BOD_mgL": 23.71,
+        "COD_mgL": 65.24,
+        "DO_mgL": 5.88,
+        "FecalColiform_MPN100ml": 12672,
+        "pH": 7.05,
+        "Nitrate_mgL": 6.53
+      },
+      "2021": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 43.97,
+        "BOD_mgL": 29.4,
+        "COD_mgL": 79.9,
+        "DO_mgL": 5.55,
+        "FecalColiform_MPN100ml": 15487,
+        "pH": 6.97,
+        "Nitrate_mgL": 6.58
+      },
+      "2022": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 43.75,
+        "BOD_mgL": 26.66,
+        "COD_mgL": 70.3,
+        "DO_mgL": 5.52,
+        "FecalColiform_MPN100ml": 15038,
+        "pH": 6.9,
+        "Nitrate_mgL": 6.24
+      },
+      "2023": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 49.42,
+        "BOD_mgL": 30.45,
+        "COD_mgL": 78.47,
+        "DO_mgL": 4.94,
+        "FecalColiform_MPN100ml": 19375,
+        "pH": 7.11,
+        "Nitrate_mgL": 7.12
+      },
+      "2024": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 47.5,
+        "BOD_mgL": 26.54,
+        "COD_mgL": 67.76,
+        "DO_mgL": 5.75,
+        "FecalColiform_MPN100ml": 17952,
+        "pH": 6.95,
+        "Nitrate_mgL": 7.13
+      },
+      "2025": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 45.6,
+        "BOD_mgL": 28.53,
+        "COD_mgL": 76.56,
+        "DO_mgL": 4.94,
+        "FecalColiform_MPN100ml": 16935,
+        "pH": 7.01,
+        "Nitrate_mgL": 6.32
+      },
+      "2026": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 42.94,
+        "BOD_mgL": 23.15,
+        "COD_mgL": 62.24,
+        "DO_mgL": 6.23,
+        "FecalColiform_MPN100ml": 15439,
+        "pH": 7.03,
+        "Nitrate_mgL": 6.45
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 58.56,
+        "BOD_mgL": 34.3,
+        "COD_mgL": 87.89,
+        "DO_mgL": 4.61,
+        "FecalColiform_MPN100ml": 27632,
+        "pH": 6.9,
+        "Nitrate_mgL": 8.34
+      },
+      "2021": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 55.38,
+        "BOD_mgL": 32.07,
+        "COD_mgL": 80.04,
+        "DO_mgL": 4.74,
+        "FecalColiform_MPN100ml": 24859,
+        "pH": 6.8,
+        "Nitrate_mgL": 8.43
+      },
+      "2022": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 62.56,
+        "BOD_mgL": 37.22,
+        "COD_mgL": 96.03,
+        "DO_mgL": 4.35,
+        "FecalColiform_MPN100ml": 29882,
+        "pH": 6.89,
+        "Nitrate_mgL": 7.64
+      },
+      "2023": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 61.16,
+        "BOD_mgL": 37.18,
+        "COD_mgL": 97.15,
+        "DO_mgL": 4.14,
+        "FecalColiform_MPN100ml": 29827,
+        "pH": 6.78,
+        "Nitrate_mgL": 8.32
+      },
+      "2024": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 61.72,
+        "BOD_mgL": 36.17,
+        "COD_mgL": 94.77,
+        "DO_mgL": 4.9,
+        "FecalColiform_MPN100ml": 30445,
+        "pH": 6.8,
+        "Nitrate_mgL": 8.93
+      },
+      "2025": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 64.25,
+        "BOD_mgL": 37.11,
+        "COD_mgL": 96.74,
+        "DO_mgL": 3.95,
+        "FecalColiform_MPN100ml": 33027,
+        "pH": 6.65,
+        "Nitrate_mgL": 7.99
+      },
+      "2026": {
+        "Location_ID": 6,
+        "Distance_km": 24,
+        "WPI": 63.2,
+        "BOD_mgL": 37.9,
+        "COD_mgL": 99.1,
+        "DO_mgL": 4.11,
+        "FecalColiform_MPN100ml": 31921,
+        "pH": 6.69,
+        "Nitrate_mgL": 8.44
+      }
+    }
+  },
+  "Mundhwa": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 21.87,
+        "BOD_mgL": 13.88,
+        "COD_mgL": 34.11,
+        "DO_mgL": 6.64,
+        "FecalColiform_MPN100ml": 3915,
+        "pH": 7.32,
+        "Nitrate_mgL": 4.08
+      },
+      "2021": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 27.01,
+        "BOD_mgL": 16.91,
+        "COD_mgL": 42.56,
+        "DO_mgL": 6.41,
+        "FecalColiform_MPN100ml": 5132,
+        "pH": 7.3,
+        "Nitrate_mgL": 3.62
+      },
+      "2022": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 27.45,
+        "BOD_mgL": 20.96,
+        "COD_mgL": 52.89,
+        "DO_mgL": 7.07,
+        "FecalColiform_MPN100ml": 6864,
+        "pH": 7.07,
+        "Nitrate_mgL": 4.58
+      },
+      "2023": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 29.28,
+        "BOD_mgL": 18.22,
+        "COD_mgL": 48.45,
+        "DO_mgL": 6.17,
+        "FecalColiform_MPN100ml": 6941,
+        "pH": 6.97,
+        "Nitrate_mgL": 4.46
+      },
+      "2024": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 25.3,
+        "BOD_mgL": 12.69,
+        "COD_mgL": 33.77,
+        "DO_mgL": 7.48,
+        "FecalColiform_MPN100ml": 5119,
+        "pH": 7.23,
+        "Nitrate_mgL": 4.08
+      },
+      "2025": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 25.55,
+        "BOD_mgL": 15.6,
+        "COD_mgL": 39.34,
+        "DO_mgL": 6.66,
+        "FecalColiform_MPN100ml": 5251,
+        "pH": 7.2,
+        "Nitrate_mgL": 4.03
+      },
+      "2026": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 30.71,
+        "BOD_mgL": 16.66,
+        "COD_mgL": 38.21,
+        "DO_mgL": 6.63,
+        "FecalColiform_MPN100ml": 6860,
+        "pH": 7.07,
+        "Nitrate_mgL": 4.1
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 36.67,
+        "BOD_mgL": 20.69,
+        "COD_mgL": 55.68,
+        "DO_mgL": 5.64,
+        "FecalColiform_MPN100ml": 10647,
+        "pH": 7.09,
+        "Nitrate_mgL": 4.92
+      },
+      "2021": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 40.09,
+        "BOD_mgL": 22.97,
+        "COD_mgL": 61.51,
+        "DO_mgL": 5.61,
+        "FecalColiform_MPN100ml": 13478,
+        "pH": 6.93,
+        "Nitrate_mgL": 5.95
+      },
+      "2022": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 47.11,
+        "BOD_mgL": 27.34,
+        "COD_mgL": 70.68,
+        "DO_mgL": 5.03,
+        "FecalColiform_MPN100ml": 17245,
+        "pH": 6.86,
+        "Nitrate_mgL": 6.04
+      },
+      "2023": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 41.11,
+        "BOD_mgL": 23.51,
+        "COD_mgL": 63.6,
+        "DO_mgL": 5.95,
+        "FecalColiform_MPN100ml": 13824,
+        "pH": 6.88,
+        "Nitrate_mgL": 5.77
+      },
+      "2024": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 43.41,
+        "BOD_mgL": 27.25,
+        "COD_mgL": 70.27,
+        "DO_mgL": 5.54,
+        "FecalColiform_MPN100ml": 15233,
+        "pH": 6.9,
+        "Nitrate_mgL": 6.7
+      },
+      "2025": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 45.1,
+        "BOD_mgL": 26.9,
+        "COD_mgL": 65.99,
+        "DO_mgL": 5.06,
+        "FecalColiform_MPN100ml": 16203,
+        "pH": 6.83,
+        "Nitrate_mgL": 6.71
+      },
+      "2026": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 39.57,
+        "BOD_mgL": 24.58,
+        "COD_mgL": 65.43,
+        "DO_mgL": 5.56,
+        "FecalColiform_MPN100ml": 11231,
+        "pH": 6.95,
+        "Nitrate_mgL": 5.94
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 55.36,
+        "BOD_mgL": 30.45,
+        "COD_mgL": 77.97,
+        "DO_mgL": 4.72,
+        "FecalColiform_MPN100ml": 23724,
+        "pH": 6.89,
+        "Nitrate_mgL": 7.63
+      },
+      "2021": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 54.66,
+        "BOD_mgL": 35.28,
+        "COD_mgL": 89.35,
+        "DO_mgL": 4.77,
+        "FecalColiform_MPN100ml": 24222,
+        "pH": 6.89,
+        "Nitrate_mgL": 7.47
+      },
+      "2022": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 58.49,
+        "BOD_mgL": 33.02,
+        "COD_mgL": 86.32,
+        "DO_mgL": 3.94,
+        "FecalColiform_MPN100ml": 27535,
+        "pH": 6.9,
+        "Nitrate_mgL": 7.02
+      },
+      "2023": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 61.89,
+        "BOD_mgL": 36.25,
+        "COD_mgL": 98.89,
+        "DO_mgL": 4.29,
+        "FecalColiform_MPN100ml": 30739,
+        "pH": 6.75,
+        "Nitrate_mgL": 8.49
+      },
+      "2024": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 58.81,
+        "BOD_mgL": 33.21,
+        "COD_mgL": 87.42,
+        "DO_mgL": 4.11,
+        "FecalColiform_MPN100ml": 27679,
+        "pH": 6.81,
+        "Nitrate_mgL": 8.6
+      },
+      "2025": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 63.39,
+        "BOD_mgL": 38.69,
+        "COD_mgL": 100.17,
+        "DO_mgL": 4.51,
+        "FecalColiform_MPN100ml": 32220,
+        "pH": 6.73,
+        "Nitrate_mgL": 8.3
+      },
+      "2026": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 56.12,
+        "BOD_mgL": 33.14,
+        "COD_mgL": 86.13,
+        "DO_mgL": 4.75,
+        "FecalColiform_MPN100ml": 25254,
+        "pH": 6.74,
+        "Nitrate_mgL": 8.33
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 73.88,
+        "BOD_mgL": 42.97,
+        "COD_mgL": 114.45,
+        "DO_mgL": 3.37,
+        "FecalColiform_MPN100ml": 43452,
+        "pH": 6.67,
+        "Nitrate_mgL": 10.14
+      },
+      "2021": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 74.35,
+        "BOD_mgL": 42.96,
+        "COD_mgL": 111.4,
+        "DO_mgL": 3.58,
+        "FecalColiform_MPN100ml": 45329,
+        "pH": 6.6,
+        "Nitrate_mgL": 9.24
+      },
+      "2022": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 77.79,
+        "BOD_mgL": 46.62,
+        "COD_mgL": 118.79,
+        "DO_mgL": 3.56,
+        "FecalColiform_MPN100ml": 48613,
+        "pH": 6.55,
+        "Nitrate_mgL": 10.31
+      },
+      "2023": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 77.06,
+        "BOD_mgL": 45.45,
+        "COD_mgL": 120.08,
+        "DO_mgL": 2.87,
+        "FecalColiform_MPN100ml": 46844,
+        "pH": 6.45,
+        "Nitrate_mgL": 10.5
+      },
+      "2024": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 79.14,
+        "BOD_mgL": 45.49,
+        "COD_mgL": 119.91,
+        "DO_mgL": 3.38,
+        "FecalColiform_MPN100ml": 50382,
+        "pH": 6.61,
+        "Nitrate_mgL": 9.84
+      },
+      "2025": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 77.62,
+        "BOD_mgL": 44.11,
+        "COD_mgL": 115.03,
+        "DO_mgL": 3.12,
+        "FecalColiform_MPN100ml": 48195,
+        "pH": 6.67,
+        "Nitrate_mgL": 10.91
+      },
+      "2026": {
+        "Location_ID": 7,
+        "Distance_km": 29,
+        "WPI": 78.31,
+        "BOD_mgL": 45.03,
+        "COD_mgL": 115.21,
+        "DO_mgL": 2.89,
+        "FecalColiform_MPN100ml": 48616,
+        "pH": 6.6,
+        "Nitrate_mgL": 11.25
+      }
+    }
+  },
+  "Kharadi": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 26.27,
+        "BOD_mgL": 14.03,
+        "COD_mgL": 39.42,
+        "DO_mgL": 6.6,
+        "FecalColiform_MPN100ml": 5186,
+        "pH": 7.24,
+        "Nitrate_mgL": 3.85
+      },
+      "2021": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 27.97,
+        "BOD_mgL": 18.19,
+        "COD_mgL": 49.67,
+        "DO_mgL": 6.76,
+        "FecalColiform_MPN100ml": 6758,
+        "pH": 7.04,
+        "Nitrate_mgL": 3.65
+      },
+      "2022": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 30.93,
+        "BOD_mgL": 18.6,
+        "COD_mgL": 48.97,
+        "DO_mgL": 6.58,
+        "FecalColiform_MPN100ml": 8082,
+        "pH": 7.03,
+        "Nitrate_mgL": 4.63
+      },
+      "2023": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 33.61,
+        "BOD_mgL": 21.06,
+        "COD_mgL": 57.34,
+        "DO_mgL": 6.35,
+        "FecalColiform_MPN100ml": 8967,
+        "pH": 6.94,
+        "Nitrate_mgL": 4.93
+      },
+      "2024": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 32.5,
+        "BOD_mgL": 21.27,
+        "COD_mgL": 52.47,
+        "DO_mgL": 5.7,
+        "FecalColiform_MPN100ml": 7684,
+        "pH": 7.2,
+        "Nitrate_mgL": 4.62
+      },
+      "2025": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 30.31,
+        "BOD_mgL": 15.87,
+        "COD_mgL": 41.1,
+        "DO_mgL": 6.34,
+        "FecalColiform_MPN100ml": 8108,
+        "pH": 7.16,
+        "Nitrate_mgL": 4.13
+      },
+      "2026": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 32.17,
+        "BOD_mgL": 22.35,
+        "COD_mgL": 61.43,
+        "DO_mgL": 6.11,
+        "FecalColiform_MPN100ml": 7979,
+        "pH": 7.13,
+        "Nitrate_mgL": 4.36
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 50.77,
+        "BOD_mgL": 30.94,
+        "COD_mgL": 79.47,
+        "DO_mgL": 5.59,
+        "FecalColiform_MPN100ml": 20313,
+        "pH": 6.97,
+        "Nitrate_mgL": 7.24
+      },
+      "2021": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 51.34,
+        "BOD_mgL": 29.75,
+        "COD_mgL": 76.85,
+        "DO_mgL": 5.3,
+        "FecalColiform_MPN100ml": 21363,
+        "pH": 6.93,
+        "Nitrate_mgL": 8.24
+      },
+      "2022": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 49.68,
+        "BOD_mgL": 28.95,
+        "COD_mgL": 78.48,
+        "DO_mgL": 5.17,
+        "FecalColiform_MPN100ml": 20111,
+        "pH": 6.97,
+        "Nitrate_mgL": 7.55
+      },
+      "2023": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 47.22,
+        "BOD_mgL": 27.1,
+        "COD_mgL": 71.64,
+        "DO_mgL": 5.7,
+        "FecalColiform_MPN100ml": 18038,
+        "pH": 6.81,
+        "Nitrate_mgL": 6.89
+      },
+      "2024": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 56.07,
+        "BOD_mgL": 31.99,
+        "COD_mgL": 83.54,
+        "DO_mgL": 5.04,
+        "FecalColiform_MPN100ml": 26153,
+        "pH": 7.05,
+        "Nitrate_mgL": 8.33
+      },
+      "2025": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 54.58,
+        "BOD_mgL": 33.85,
+        "COD_mgL": 89.17,
+        "DO_mgL": 4.61,
+        "FecalColiform_MPN100ml": 23349,
+        "pH": 6.82,
+        "Nitrate_mgL": 8.09
+      },
+      "2026": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 50.91,
+        "BOD_mgL": 31.15,
+        "COD_mgL": 83.44,
+        "DO_mgL": 4.91,
+        "FecalColiform_MPN100ml": 20632,
+        "pH": 6.8,
+        "Nitrate_mgL": 6.7
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 65.95,
+        "BOD_mgL": 40.62,
+        "COD_mgL": 105.68,
+        "DO_mgL": 3.66,
+        "FecalColiform_MPN100ml": 35029,
+        "pH": 6.67,
+        "Nitrate_mgL": 9.92
+      },
+      "2021": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 62.97,
+        "BOD_mgL": 38.03,
+        "COD_mgL": 98.99,
+        "DO_mgL": 4.17,
+        "FecalColiform_MPN100ml": 32488,
+        "pH": 6.82,
+        "Nitrate_mgL": 8.83
+      },
+      "2022": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 66.91,
+        "BOD_mgL": 36.86,
+        "COD_mgL": 96.64,
+        "DO_mgL": 3.62,
+        "FecalColiform_MPN100ml": 35556,
+        "pH": 6.79,
+        "Nitrate_mgL": 9.65
+      },
+      "2023": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 69.97,
+        "BOD_mgL": 39.57,
+        "COD_mgL": 102.61,
+        "DO_mgL": 3.61,
+        "FecalColiform_MPN100ml": 38771,
+        "pH": 6.77,
+        "Nitrate_mgL": 9.34
+      },
+      "2024": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 69.98,
+        "BOD_mgL": 41.38,
+        "COD_mgL": 109.14,
+        "DO_mgL": 3.44,
+        "FecalColiform_MPN100ml": 38763,
+        "pH": 6.7,
+        "Nitrate_mgL": 9.31
+      },
+      "2025": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 72.49,
+        "BOD_mgL": 44.18,
+        "COD_mgL": 113.89,
+        "DO_mgL": 3.09,
+        "FecalColiform_MPN100ml": 42109,
+        "pH": 6.5,
+        "Nitrate_mgL": 9.86
+      },
+      "2026": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 67.5,
+        "BOD_mgL": 39.68,
+        "COD_mgL": 105.0,
+        "DO_mgL": 3.53,
+        "FecalColiform_MPN100ml": 37197,
+        "pH": 6.7,
+        "Nitrate_mgL": 9.09
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 82.84,
+        "BOD_mgL": 47.01,
+        "COD_mgL": 122.6,
+        "DO_mgL": 2.3,
+        "FecalColiform_MPN100ml": 54415,
+        "pH": 6.69,
+        "Nitrate_mgL": 10.61
+      },
+      "2021": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 87.66,
+        "BOD_mgL": 49.66,
+        "COD_mgL": 127.44,
+        "DO_mgL": 2.05,
+        "FecalColiform_MPN100ml": 60485,
+        "pH": 6.73,
+        "Nitrate_mgL": 10.97
+      },
+      "2022": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 87.5,
+        "BOD_mgL": 50.59,
+        "COD_mgL": 134.94,
+        "DO_mgL": 2.45,
+        "FecalColiform_MPN100ml": 62555,
+        "pH": 6.58,
+        "Nitrate_mgL": 10.62
+      },
+      "2023": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 89.18,
+        "BOD_mgL": 49.72,
+        "COD_mgL": 128.4,
+        "DO_mgL": 2.47,
+        "FecalColiform_MPN100ml": 63431,
+        "pH": 6.68,
+        "Nitrate_mgL": 11.5
+      },
+      "2024": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 87.57,
+        "BOD_mgL": 51.21,
+        "COD_mgL": 135.06,
+        "DO_mgL": 2.4,
+        "FecalColiform_MPN100ml": 62088,
+        "pH": 6.41,
+        "Nitrate_mgL": 11.41
+      },
+      "2025": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 88.81,
+        "BOD_mgL": 50.15,
+        "COD_mgL": 127.2,
+        "DO_mgL": 2.44,
+        "FecalColiform_MPN100ml": 62836,
+        "pH": 6.39,
+        "Nitrate_mgL": 10.22
+      },
+      "2026": {
+        "Location_ID": 8,
+        "Distance_km": 34,
+        "WPI": 87.69,
+        "BOD_mgL": 46.6,
+        "COD_mgL": 122.93,
+        "DO_mgL": 2.58,
+        "FecalColiform_MPN100ml": 61381,
+        "pH": 6.53,
+        "Nitrate_mgL": 11.78
+      }
+    }
+  },
+  "Fursungi / Manjari": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 29.39,
+        "BOD_mgL": 17.37,
+        "COD_mgL": 46.75,
+        "DO_mgL": 6.07,
+        "FecalColiform_MPN100ml": 7058,
+        "pH": 6.97,
+        "Nitrate_mgL": 4.76
+      },
+      "2021": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 35.85,
+        "BOD_mgL": 24.8,
+        "COD_mgL": 64.52,
+        "DO_mgL": 5.77,
+        "FecalColiform_MPN100ml": 10188,
+        "pH": 7.18,
+        "Nitrate_mgL": 4.98
+      },
+      "2022": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 39.98,
+        "BOD_mgL": 25.61,
+        "COD_mgL": 65.69,
+        "DO_mgL": 6.09,
+        "FecalColiform_MPN100ml": 12821,
+        "pH": 7.09,
+        "Nitrate_mgL": 6.04
+      },
+      "2023": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 36.06,
+        "BOD_mgL": 21.3,
+        "COD_mgL": 56.06,
+        "DO_mgL": 5.89,
+        "FecalColiform_MPN100ml": 10485,
+        "pH": 7.17,
+        "Nitrate_mgL": 4.82
+      },
+      "2024": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 36.81,
+        "BOD_mgL": 22.21,
+        "COD_mgL": 55.94,
+        "DO_mgL": 6.02,
+        "FecalColiform_MPN100ml": 10252,
+        "pH": 7.15,
+        "Nitrate_mgL": 5.19
+      },
+      "2025": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 35.67,
+        "BOD_mgL": 20.15,
+        "COD_mgL": 54.6,
+        "DO_mgL": 5.97,
+        "FecalColiform_MPN100ml": 9090,
+        "pH": 7.13,
+        "Nitrate_mgL": 5.01
+      },
+      "2026": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 33.52,
+        "BOD_mgL": 18.83,
+        "COD_mgL": 50.86,
+        "DO_mgL": 6.67,
+        "FecalColiform_MPN100ml": 8934,
+        "pH": 7.05,
+        "Nitrate_mgL": 5.06
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 51.71,
+        "BOD_mgL": 28.02,
+        "COD_mgL": 75.18,
+        "DO_mgL": 4.66,
+        "FecalColiform_MPN100ml": 20987,
+        "pH": 6.9,
+        "Nitrate_mgL": 7.78
+      },
+      "2021": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 51.36,
+        "BOD_mgL": 29.52,
+        "COD_mgL": 74.85,
+        "DO_mgL": 4.94,
+        "FecalColiform_MPN100ml": 21911,
+        "pH": 6.92,
+        "Nitrate_mgL": 7.04
+      },
+      "2022": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 52.79,
+        "BOD_mgL": 30.07,
+        "COD_mgL": 80.24,
+        "DO_mgL": 4.7,
+        "FecalColiform_MPN100ml": 22094,
+        "pH": 6.78,
+        "Nitrate_mgL": 7.55
+      },
+      "2023": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 58.18,
+        "BOD_mgL": 35.98,
+        "COD_mgL": 93.31,
+        "DO_mgL": 3.79,
+        "FecalColiform_MPN100ml": 26777,
+        "pH": 6.95,
+        "Nitrate_mgL": 7.97
+      },
+      "2024": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 56.2,
+        "BOD_mgL": 33.33,
+        "COD_mgL": 86.14,
+        "DO_mgL": 4.74,
+        "FecalColiform_MPN100ml": 25028,
+        "pH": 6.93,
+        "Nitrate_mgL": 7.07
+      },
+      "2025": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 55.77,
+        "BOD_mgL": 33.17,
+        "COD_mgL": 86.62,
+        "DO_mgL": 4.81,
+        "FecalColiform_MPN100ml": 24664,
+        "pH": 6.89,
+        "Nitrate_mgL": 7.56
+      },
+      "2026": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 59.14,
+        "BOD_mgL": 33.14,
+        "COD_mgL": 86.64,
+        "DO_mgL": 4.65,
+        "FecalColiform_MPN100ml": 28229,
+        "pH": 6.83,
+        "Nitrate_mgL": 8.6
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 67.76,
+        "BOD_mgL": 39.36,
+        "COD_mgL": 103.19,
+        "DO_mgL": 3.96,
+        "FecalColiform_MPN100ml": 36820,
+        "pH": 6.69,
+        "Nitrate_mgL": 8.72
+      },
+      "2021": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 71.68,
+        "BOD_mgL": 39.08,
+        "COD_mgL": 103.37,
+        "DO_mgL": 3.46,
+        "FecalColiform_MPN100ml": 41013,
+        "pH": 7.0,
+        "Nitrate_mgL": 9.75
+      },
+      "2022": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 79.67,
+        "BOD_mgL": 44.22,
+        "COD_mgL": 115.02,
+        "DO_mgL": 3.35,
+        "FecalColiform_MPN100ml": 50744,
+        "pH": 6.65,
+        "Nitrate_mgL": 10.03
+      },
+      "2023": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 72.6,
+        "BOD_mgL": 41.17,
+        "COD_mgL": 108.72,
+        "DO_mgL": 3.58,
+        "FecalColiform_MPN100ml": 42042,
+        "pH": 6.64,
+        "Nitrate_mgL": 9.52
+      },
+      "2024": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 75.9,
+        "BOD_mgL": 46.65,
+        "COD_mgL": 119.29,
+        "DO_mgL": 2.98,
+        "FecalColiform_MPN100ml": 46346,
+        "pH": 6.66,
+        "Nitrate_mgL": 10.28
+      },
+      "2025": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 77.84,
+        "BOD_mgL": 45.74,
+        "COD_mgL": 117.05,
+        "DO_mgL": 3.38,
+        "FecalColiform_MPN100ml": 48206,
+        "pH": 6.7,
+        "Nitrate_mgL": 10.52
+      },
+      "2026": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 69.56,
+        "BOD_mgL": 41.27,
+        "COD_mgL": 105.99,
+        "DO_mgL": 3.08,
+        "FecalColiform_MPN100ml": 38963,
+        "pH": 6.84,
+        "Nitrate_mgL": 9.28
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 92.72,
+        "BOD_mgL": 51.39,
+        "COD_mgL": 127.77,
+        "DO_mgL": 2.14,
+        "FecalColiform_MPN100ml": 69221,
+        "pH": 6.24,
+        "Nitrate_mgL": 11.62
+      },
+      "2021": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 93.4,
+        "BOD_mgL": 52.73,
+        "COD_mgL": 139.39,
+        "DO_mgL": 2.0,
+        "FecalColiform_MPN100ml": 69062,
+        "pH": 6.56,
+        "Nitrate_mgL": 11.87
+      },
+      "2022": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 98.0,
+        "BOD_mgL": 55.62,
+        "COD_mgL": 146.58,
+        "DO_mgL": 2.0,
+        "FecalColiform_MPN100ml": 78126,
+        "pH": 6.48,
+        "Nitrate_mgL": 12.92
+      },
+      "2023": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 96.5,
+        "BOD_mgL": 57.5,
+        "COD_mgL": 148.86,
+        "DO_mgL": 2.11,
+        "FecalColiform_MPN100ml": 75262,
+        "pH": 6.53,
+        "Nitrate_mgL": 12.36
+      },
+      "2024": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 98.0,
+        "BOD_mgL": 56.85,
+        "COD_mgL": 150.03,
+        "DO_mgL": 1.76,
+        "FecalColiform_MPN100ml": 76711,
+        "pH": 6.49,
+        "Nitrate_mgL": 13.71
+      },
+      "2025": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 98.0,
+        "BOD_mgL": 55.56,
+        "COD_mgL": 143.76,
+        "DO_mgL": 1.63,
+        "FecalColiform_MPN100ml": 76680,
+        "pH": 6.5,
+        "Nitrate_mgL": 11.95
+      },
+      "2026": {
+        "Location_ID": 9,
+        "Distance_km": 41,
+        "WPI": 98.0,
+        "BOD_mgL": 58.32,
+        "COD_mgL": 154.26,
+        "DO_mgL": 2.13,
+        "FecalColiform_MPN100ml": 77203,
+        "pH": 6.43,
+        "Nitrate_mgL": 11.96
+      }
+    }
+  },
+  "Confluence with Bhima River (Downstream Exit)": {
+    "Monsoon": {
+      "2020": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 26.38,
+        "BOD_mgL": 15.25,
+        "COD_mgL": 43.99,
+        "DO_mgL": 6.6,
+        "FecalColiform_MPN100ml": 5630,
+        "pH": 7.19,
+        "Nitrate_mgL": 4.19
+      },
+      "2021": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 27.41,
+        "BOD_mgL": 18.08,
+        "COD_mgL": 47.43,
+        "DO_mgL": 6.36,
+        "FecalColiform_MPN100ml": 5850,
+        "pH": 7.05,
+        "Nitrate_mgL": 4.83
+      },
+      "2022": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 28.29,
+        "BOD_mgL": 17.68,
+        "COD_mgL": 45.52,
+        "DO_mgL": 6.32,
+        "FecalColiform_MPN100ml": 6487,
+        "pH": 7.16,
+        "Nitrate_mgL": 3.85
+      },
+      "2023": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 31.27,
+        "BOD_mgL": 19.84,
+        "COD_mgL": 50.29,
+        "DO_mgL": 6.84,
+        "FecalColiform_MPN100ml": 7223,
+        "pH": 7.18,
+        "Nitrate_mgL": 5.25
+      },
+      "2024": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 27.62,
+        "BOD_mgL": 16.88,
+        "COD_mgL": 40.52,
+        "DO_mgL": 6.32,
+        "FecalColiform_MPN100ml": 6587,
+        "pH": 7.29,
+        "Nitrate_mgL": 3.7
+      },
+      "2025": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 28.92,
+        "BOD_mgL": 18.58,
+        "COD_mgL": 45.17,
+        "DO_mgL": 6.14,
+        "FecalColiform_MPN100ml": 6093,
+        "pH": 7.13,
+        "Nitrate_mgL": 5.34
+      },
+      "2026": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 28.15,
+        "BOD_mgL": 17.32,
+        "COD_mgL": 50.32,
+        "DO_mgL": 6.08,
+        "FecalColiform_MPN100ml": 6465,
+        "pH": 7.17,
+        "Nitrate_mgL": 4.92
+      }
+    },
+    "Post-Monsoon": {
+      "2020": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 46.24,
+        "BOD_mgL": 26.5,
+        "COD_mgL": 69.29,
+        "DO_mgL": 5.04,
+        "FecalColiform_MPN100ml": 16443,
+        "pH": 6.88,
+        "Nitrate_mgL": 6.53
+      },
+      "2021": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 43.31,
+        "BOD_mgL": 28.67,
+        "COD_mgL": 74.42,
+        "DO_mgL": 5.26,
+        "FecalColiform_MPN100ml": 14251,
+        "pH": 6.79,
+        "Nitrate_mgL": 5.41
+      },
+      "2022": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 48.05,
+        "BOD_mgL": 28.28,
+        "COD_mgL": 73.57,
+        "DO_mgL": 5.35,
+        "FecalColiform_MPN100ml": 18584,
+        "pH": 7.01,
+        "Nitrate_mgL": 6.91
+      },
+      "2023": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 43.19,
+        "BOD_mgL": 27.84,
+        "COD_mgL": 71.88,
+        "DO_mgL": 5.56,
+        "FecalColiform_MPN100ml": 15051,
+        "pH": 6.95,
+        "Nitrate_mgL": 6.59
+      },
+      "2024": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 43.68,
+        "BOD_mgL": 25.98,
+        "COD_mgL": 68.11,
+        "DO_mgL": 5.2,
+        "FecalColiform_MPN100ml": 15473,
+        "pH": 6.92,
+        "Nitrate_mgL": 6.23
+      },
+      "2025": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 50.98,
+        "BOD_mgL": 31.0,
+        "COD_mgL": 81.6,
+        "DO_mgL": 4.39,
+        "FecalColiform_MPN100ml": 20520,
+        "pH": 6.81,
+        "Nitrate_mgL": 6.81
+      },
+      "2026": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 45.84,
+        "BOD_mgL": 27.67,
+        "COD_mgL": 71.16,
+        "DO_mgL": 5.37,
+        "FecalColiform_MPN100ml": 16638,
+        "pH": 7.0,
+        "Nitrate_mgL": 6.32
+      }
+    },
+    "Winter": {
+      "2020": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 55.93,
+        "BOD_mgL": 31.72,
+        "COD_mgL": 79.66,
+        "DO_mgL": 4.56,
+        "FecalColiform_MPN100ml": 24270,
+        "pH": 6.92,
+        "Nitrate_mgL": 7.75
+      },
+      "2021": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 59.38,
+        "BOD_mgL": 35.42,
+        "COD_mgL": 88.93,
+        "DO_mgL": 4.61,
+        "FecalColiform_MPN100ml": 27964,
+        "pH": 6.82,
+        "Nitrate_mgL": 8.93
+      },
+      "2022": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 58.89,
+        "BOD_mgL": 34.93,
+        "COD_mgL": 88.53,
+        "DO_mgL": 4.41,
+        "FecalColiform_MPN100ml": 27726,
+        "pH": 6.79,
+        "Nitrate_mgL": 8.0
+      },
+      "2023": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 62.87,
+        "BOD_mgL": 33.96,
+        "COD_mgL": 90.9,
+        "DO_mgL": 3.6,
+        "FecalColiform_MPN100ml": 32138,
+        "pH": 6.88,
+        "Nitrate_mgL": 8.0
+      },
+      "2024": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 62.65,
+        "BOD_mgL": 36.47,
+        "COD_mgL": 93.95,
+        "DO_mgL": 4.08,
+        "FecalColiform_MPN100ml": 31358,
+        "pH": 6.74,
+        "Nitrate_mgL": 8.39
+      },
+      "2025": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 61.2,
+        "BOD_mgL": 34.95,
+        "COD_mgL": 86.91,
+        "DO_mgL": 4.44,
+        "FecalColiform_MPN100ml": 29423,
+        "pH": 6.81,
+        "Nitrate_mgL": 9.38
+      },
+      "2026": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 62.82,
+        "BOD_mgL": 36.51,
+        "COD_mgL": 97.18,
+        "DO_mgL": 4.09,
+        "FecalColiform_MPN100ml": 30686,
+        "pH": 6.9,
+        "Nitrate_mgL": 8.09
+      }
+    },
+    "Summer": {
+      "2020": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 71.36,
+        "BOD_mgL": 40.78,
+        "COD_mgL": 104.52,
+        "DO_mgL": 3.6,
+        "FecalColiform_MPN100ml": 41403,
+        "pH": 6.5,
+        "Nitrate_mgL": 9.62
+      },
+      "2021": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 79.49,
+        "BOD_mgL": 45.32,
+        "COD_mgL": 116.05,
+        "DO_mgL": 2.29,
+        "FecalColiform_MPN100ml": 50192,
+        "pH": 6.58,
+        "Nitrate_mgL": 10.05
+      },
+      "2022": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 74.8,
+        "BOD_mgL": 42.31,
+        "COD_mgL": 110.19,
+        "DO_mgL": 3.31,
+        "FecalColiform_MPN100ml": 44240,
+        "pH": 6.78,
+        "Nitrate_mgL": 9.54
+      },
+      "2023": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 79.09,
+        "BOD_mgL": 43.84,
+        "COD_mgL": 113.55,
+        "DO_mgL": 2.87,
+        "FecalColiform_MPN100ml": 50429,
+        "pH": 6.74,
+        "Nitrate_mgL": 11.19
+      },
+      "2024": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 84.64,
+        "BOD_mgL": 49.39,
+        "COD_mgL": 127.82,
+        "DO_mgL": 2.78,
+        "FecalColiform_MPN100ml": 57139,
+        "pH": 6.67,
+        "Nitrate_mgL": 11.34
+      },
+      "2025": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 78.78,
+        "BOD_mgL": 41.53,
+        "COD_mgL": 107.41,
+        "DO_mgL": 3.32,
+        "FecalColiform_MPN100ml": 50625,
+        "pH": 6.49,
+        "Nitrate_mgL": 10.7
+      },
+      "2026": {
+        "Location_ID": 10,
+        "Distance_km": 52,
+        "WPI": 79.79,
+        "BOD_mgL": 44.99,
+        "COD_mgL": 119.72,
+        "DO_mgL": 2.27,
+        "FecalColiform_MPN100ml": 52494,
+        "pH": 6.71,
+        "Nitrate_mgL": 10.69
+      }
+    }
+  }
+}

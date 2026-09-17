@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Mulshi Dam (Mula Source)",
+    "distance_km": 0,
+    "base_pollution": 8
+  },
+  {
+    "id": 2,
+    "name": "Pashan Lake Inflow",
+    "distance_km": 8,
+    "base_pollution": 15
+  },
+  {
+    "id": 3,
+    "name": "Aundh",
+    "distance_km": 14,
+    "base_pollution": 28
+  },
+  {
+    "id": 4,
+    "name": "Bopodi",
+    "distance_km": 18,
+    "base_pollution": 38
+  },
+  {
+    "id": 5,
+    "name": "Sangam Bridge (Mula-Mutha Confluence)",
+    "distance_km": 21,
+    "base_pollution": 30
+  },
+  {
+    "id": 6,
+    "name": "Bund Garden",
+    "distance_km": 24,
+    "base_pollution": 45
+  },
+  {
+    "id": 7,
+    "name": "Mundhwa",
+    "distance_km": 29,
+    "base_pollution": 58
+  },
+  {
+    "id": 8,
+    "name": "Kharadi",
+    "distance_km": 34,
+    "base_pollution": 66
+  },
+  {
+    "id": 9,
+    "name": "Fursungi / Manjari",
+    "distance_km": 41,
+    "base_pollution": 74
+  },
+  {
+    "id": 10,
+    "name": "Confluence with Bhima River (Downstream Exit)",
+    "distance_km": 52,
+    "base_pollution": 60
+  }
+]

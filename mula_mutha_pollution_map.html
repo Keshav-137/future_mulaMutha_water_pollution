@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mula-Mutha River — Pollution Flow Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0c1c1e;
+    --panel: #132b2e;
+    --panel-2: #0f2325;
+    --line: #24454a;
+    --text: #eae6dc;
+    --text-dim: #9fb3b3;
+    --water: #3e7cb1;
+    --c-clean: #2f9e6e;
+    --c-mod: #a3b23c;
+    --c-poll: #e0a23e;
+    --c-heavy: #d9622e;
+    --c-severe: #b52e2e;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
+    font-family:'IBM Plex Mono', monospace;}
+  body{padding:28px 20px 40px;}
+  .wrap{max-width:1180px;margin:0 auto;}
+
+  header{margin-bottom:22px;}
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(26px,4vw,40px);
+    margin:0 0 6px;
+    letter-spacing:-0.01em;
+    color:var(--text);
+  }
+  header p{
+    margin:0; color:var(--text-dim); font-size:13px; max-width:640px; line-height:1.5;
+  }
+
+  .layout{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:18px;
+  }
+  @media(min-width:940px){
+    .layout{grid-template-columns: 2.15fr 1fr;}
+  }
+
+  .card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:18px;
+  }
+
+  /* ---- Controls ---- */
+  .controls{
+    display:flex; flex-wrap:wrap; align-items:center; gap:14px;
+    margin-bottom:14px;
+  }
+  .seasons{display:flex; gap:6px; flex-wrap:wrap;}
+  .season-btn{
+    background:transparent; border:1px solid var(--line); color:var(--text-dim);
+    font-family:inherit; font-size:12px; padding:7px 12px; border-radius:20px;
+    cursor:pointer; transition:.15s ease;
+  }
+  .season-btn:hover{border-color:var(--water);}
+  .season-btn.active{
+    background:var(--water); border-color:var(--water); color:#08181a; font-weight:600;
+  }
+
+  .year-block{flex:1; min-width:240px; display:flex; align-items:center; gap:12px;}
+  .year-num{
+    font-size:20px; font-weight:600; min-width:52px; text-align:center;
+    color:var(--text);
+  }
+  .year-num.predicted{color:var(--c-poll);}
+  input[type=range]{
+    flex:1; -webkit-appearance:none; appearance:none; height:4px; border-radius:2px;
+    background:var(--line); outline:none; cursor:pointer;
+  }
+  input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance:none; appearance:none;
+    width:16px;height:16px;border-radius:50%;
+    background:var(--water); border:2px solid #dff3ff; cursor:grab;
+    margin-top:-1px;
+  }
+  input[type=range]::-webkit-slider-thumb:active{cursor:grabbing;}
+  input[type=range]::-moz-range-thumb{
+    width:14px;height:14px;border-radius:50%;
+    background:var(--water); border:2px solid #dff3ff; cursor:grab;
+  }
+
+  .play-btn{
+    background:var(--panel-2); border:1px solid var(--line); color:var(--text);
+    width:34px; height:34px; border-radius:50%; cursor:pointer; font-size:13px;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .play-btn:hover{border-color:var(--water);}
+
+  .pred-flag{
+    font-size:11px; color:var(--c-poll); border:1px dashed var(--c-poll);
+    padding:3px 8px; border-radius:20px; display:none;
+  }
+  .pred-flag.show{display:inline-block;}
+
+  /* ---- Legend ---- */
+  .legend{display:flex; align-items:center; gap:10px; font-size:11px; color:var(--text-dim);}
+  .legend-bar{
+    flex:1; height:8px; border-radius:4px;
+    background:linear-gradient(90deg, var(--c-clean), var(--c-mod), var(--c-poll), var(--c-heavy), var(--c-severe));
+  }
+
+  /* ---- SVG Map ---- */
+  .map-card{padding:8px 8px 16px;}
+  svg{width:100%; height:auto; display:block; touch-action:pan-y;}
+  .loc-dot{cursor:pointer;}
+  .loc-dot circle.halo{opacity:0; transition:opacity .2s;}
+  .loc-dot:hover circle.halo, .loc-dot.selected circle.halo{opacity:.35;}
+  .loc-label{
+    font-family:'IBM Plex Mono', monospace; font-size:10.5px; fill:var(--text-dim);
+    pointer-events:none;
+  }
+  .flow-seg{transition: stroke .35s ease;}
+  .wpi-tag{
+    font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:11px;
+    pointer-events:none;
+  }
+
+  /* ---- Detail panel ---- */
+  .detail h2{
+    font-family:'Fraunces', serif; font-weight:600; font-size:19px; margin:0 0 4px;
+  }
+  .detail .sub{color:var(--text-dim); font-size:12px; margin-bottom:14px;}
+  .wpi-readout{
+    display:flex; align-items:baseline; gap:8px; margin-bottom:4px;
+  }
+  .wpi-big{font-size:38px; font-weight:600; font-family:'Fraunces', serif;}
+  .wpi-band{
+    font-size:11px; padding:3px 9px; border-radius:20px; font-weight:600;
+    text-transform:uppercase; letter-spacing:.03em;
+  }
+  .metrics{
+    margin-top:16px; display:grid; grid-template-columns:1fr 1fr; gap:10px 16px;
+  }
+  .metric{border-top:1px solid var(--line); padding-top:8px;}
+  .metric .label{font-size:10.5px; color:var(--text-dim); text-transform:uppercase; letter-spacing:.04em;}
+  .metric .val{font-size:16px; margin-top:3px;}
+  .hint{color:var(--text-dim); font-size:12px; margin-top:16px; line-height:1.5;}
+
+  .stats-card{margin-top:18px;}
+  .stats-card h3{
+    font-family:'Fraunces', serif; font-weight:600; font-size:15px; margin:0 0 12px;
+  }
+  .stat-row{display:flex; justify-content:space-between; font-size:13px; padding:6px 0; border-top:1px solid var(--line);}
+  .stat-row:first-of-type{border-top:none;}
+  .stat-row .name{color:var(--text-dim);}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Mula-Mutha River — Pollution Flow</h1>
+    <p>Drag the year slider or switch season to watch the river's Water Pollution Index (WPI) shift along its 52&nbsp;km course through Pune — from the Mulshi Dam source to the confluence with the Bhima. Green is clean, red is severely polluted.</p>
+  </header>
+
+  <div class="layout">
+    <div>
+      <div class="card">
+        <div class="controls">
+          <div class="seasons" id="seasonTabs"></div>
+          <span class="pred-flag" id="predFlag">2027 — forecast (linear trend)</span>
+        </div>
+        <div class="controls" style="margin-bottom:6px;">
+          <button class="play-btn" id="playBtn" title="Play through years">▶</button>
+          <div class="year-block">
+            <span class="year-num" id="yearNum">2020</span>
+            <input type="range" id="yearSlider" min="0" max="7" step="1" value="0" />
+          </div>
+        </div>
+        <div class="legend">
+          <span>Clean</span>
+          <div class="legend-bar"></div>
+          <span>Severe</span>
+        </div>
+      </div>
+
+      <div class="card map-card" style="margin-top:16px;">
+        <svg id="riverSvg" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg"></svg>
+      </div>
+    </div>
+
+    <div>
+      <div class="card detail" id="detailPanel"></div>
+      <div class="card stats-card">
+        <h3>This view, along the river</h3>
+        <div id="statsBody"></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const DATA = {"years": [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027], "seasons": ["Monsoon", "Post-Monsoon", "Winter", "Summer"], "locations": [{"id": 1, "name": "Mulshi Dam (Mula Source)", "distance_km": 0, "base_pollution": 8}, {"id": 2, "name": "Pashan Lake Inflow", "distance_km": 8, "base_pollution": 15}, {"id": 3, "name": "Aundh", "distance_km": 14, "base_pollution": 28}, {"id": 4, "name": "Bopodi", "distance_km": 18, "base_pollution": 38}, {"id": 5, "name": "Sangam Bridge (Mula-Mutha Confluence)", "distance_km": 21, "base_pollution": 30}, {"id": 6, "name": "Bund Garden", "distance_km": 24, "base_pollution": 45}, {"id": 7, "name": "Mundhwa", "distance_km": 29, "base_pollution": 58}, {"id": 8, "name": "Kharadi", "distance_km": 34, "base_pollution": 66}, {"id": 9, "name": "Fursungi / Manjari", "distance_km": 41, "base_pollution": 74}, {"id": 10, "name": "Confluence with Bhima River (Downstream Exit)", "distance_km": 52, "base_pollution": 60}], "wpi_by_location_season_year": {"Mulshi Dam (Mula Source)": {"Monsoon": {"2020": 4.84, "2021": 2.21, "2022": 2.0, "2023": 2.0, "2024": 4.02, "2025": 4.46, "2026": 3.29}, "Post-Monsoon": {"2020": 7.52, "2021": 2.72, "2022": 2.95, "2023": 8.4, "2024": 7.9, "2025": 2.75, "2026": 8.15}, "Winter": {"2020": 3.29, "2021": 7.54, "2022": 8.96, "2023": 8.13, "2024": 5.7, "2025": 8.95, "2026": 5.57}, "Summer": {"2020": 9.44, "2021": 5.89, "2022": 9.85, "2023": 11.69, "2024": 11.94, "2025": 12.78, "2026": 7.07}}, "Pashan Lake Inflow": {"Monsoon": {"2020": 4.54, "2021": 5.77, "2022": 12.46, "2023": 7.49, "2024": 8.63, "2025": 5.23, "2026": 9.05}, "Post-Monsoon": {"2020": 13.13, "2021": 11.36, "2022": 13.07, "2023": 12.69, "2024": 11.34, "2025": 10.08, "2026": 12.64}, "Winter": {"2020": 15.68, "2021": 13.02, "2022": 19.19, "2023": 16.11, "2024": 13.28, "2025": 16.18, "2026": 20.94}, "Summer": {"2020": 18.16, "2021": 18.48, "2022": 19.9, "2023": 18.63, "2024": 21.73, "2025": 19.55, "2026": 20.73}}, "Aundh": {"Monsoon": {"2020": 9.3, "2021": 18.13, "2022": 12.07, "2023": 14.9, "2024": 11.92, "2025": 13.46, "2026": 14.4}, "Post-Monsoon": {"2020": 22.69, "2021": 21.9, "2022": 18.79, "2023": 21.45, "2024": 20.95, "2025": 19.75, "2026": 18.76}, "Winter": {"2020": 23.93, "2021": 31.15, "2022": 26.45, "2023": 28.39, "2024": 28.85, "2025": 30.2, "2026": 30.95}, "Summer": {"2020": 38.19, "2021": 35.97, "2022": 35.66, "2023": 36.91, "2024": 33.12, "2025": 38.47, "2026": 36.96}}, "Bopodi": {"Monsoon": {"2020": 19.18, "2021": 17.89, "2022": 17.51, "2023": 17.41, "2024": 17.08, "2025": 17.14, "2026": 19.8}, "Post-Monsoon": {"2020": 25.32, "2021": 30.76, "2022": 31.01, "2023": 31.59, "2024": 32.99, "2025": 29.94, "2026": 28.64}, "Winter": {"2020": 38.27, "2021": 32.95, "2022": 38.76, "2023": 37.96, "2024": 38.72, "2025": 37.46, "2026": 40.96}, "Summer": {"2020": 51.24, "2021": 49.11, "2022": 50.62, "2023": 52.28, "2024": 46.8, "2025": 47.83, "2026": 50.95}}, "Sangam Bridge (Mula-Mutha Confluence)": {"Monsoon": {"2020": 14.9, "2021": 17.52, "2022": 14.19, "2023": 16.07, "2024": 14.1, "2025": 17.58, "2026": 11.53}, "Post-Monsoon": {"2020": 21.52, "2021": 24.29, "2022": 28.4, "2023": 26.92, "2024": 25.78, "2025": 27.4, "2026": 23.92}, "Winter": {"2020": 28.57, "2021": 33.3, "2022": 33.76, "2023": 29.22, "2024": 29.87, "2025": 31.42, "2026": 29.25}, "Summer": {"2020": 36.73, "2021": 36.71, "2022": 35.96, "2023": 42.83, "2024": 40.79, "2025": 37.86, "2026": 39.08}}, "Bund Garden": {"Monsoon": {"2020": 22.21, "2021": 23.48, "2022": 18.4, "2023": 20.72, "2024": 23.59, "2025": 24.65, "2026": 25.97}, "Post-Monsoon": {"2020": 33.69, "2021": 32.94, "2022": 33.29, "2023": 34.84, "2024": 34.74, "2025": 32.17, "2026": 36.72}, "Winter": {"2020": 40.25, "2021": 43.97, "2022": 43.75, "2023": 49.42, "2024": 47.5, "2025": 45.6, "2026": 42.94}, "Summer": {"2020": 58.56, "2021": 55.38, "2022": 62.56, "2023": 61.16, "2024": 61.72, "2025": 64.25, "2026": 63.2}}, "Mundhwa": {"Monsoon": {"2020": 21.87, "2021": 27.01, "2022": 27.45, "2023": 29.28, "2024": 25.3, "2025": 25.55, "2026": 30.71}, "Post-Monsoon": {"2020": 36.67, "2021": 40.09, "2022": 47.11, "2023": 41.11, "2024": 43.41, "2025": 45.1, "2026": 39.57}, "Winter": {"2020": 55.36, "2021": 54.66, "2022": 58.49, "2023": 61.89, "2024": 58.81, "2025": 63.39, "2026": 56.12}, "Summer": {"2020": 73.88, "2021": 74.35, "2022": 77.79, "2023": 77.06, "2024": 79.14, "2025": 77.62, "2026": 78.31}}, "Kharadi": {"Monsoon": {"2020": 26.27, "2021": 27.97, "2022": 30.93, "2023": 33.61, "2024": 32.5, "2025": 30.31, "2026": 32.17}, "Post-Monsoon": {"2020": 50.77, "2021": 51.34, "2022": 49.68, "2023": 47.22, "2024": 56.07, "2025": 54.58, "2026": 50.91}, "Winter": {"2020": 65.95, "2021": 62.97, "2022": 66.91, "2023": 69.97, "2024": 69.98, "2025": 72.49, "2026": 67.5}, "Summer": {"2020": 82.84, "2021": 87.66, "2022": 87.5, "2023": 89.18, "2024": 87.57, "2025": 88.81, "2026": 87.69}}, "Fursungi / Manjari": {"Monsoon": {"2020": 29.39, "2021": 35.85, "2022": 39.98, "2023": 36.06, "2024": 36.81, "2025": 35.67, "2026": 33.52}, "Post-Monsoon": {"2020": 51.71, "2021": 51.36, "2022": 52.79, "2023": 58.18, "2024": 56.2, "2025": 55.77, "2026": 59.14}, "Winter": {"2020": 67.76, "2021": 71.68, "2022": 79.67, "2023": 72.6, "2024": 75.9, "2025": 77.84, "2026": 69.56}, "Summer": {"2020": 92.72, "2021": 93.4, "2022": 98.0, "2023": 96.5, "2024": 98.0, "2025": 98.0, "2026": 98.0}}, "Confluence with Bhima River (Downstream Exit)": {"Monsoon": {"2020": 26.38, "2021": 27.41, "2022": 28.29, "2023": 31.27, "2024": 27.62, "2025": 28.92, "2026": 28.15}, "Post-Monsoon": {"2020": 46.24, "2021": 43.31, "2022": 48.05, "2023": 43.19, "2024": 43.68, "2025": 50.98, "2026": 45.84}, "Winter": {"2020": 55.93, "2021": 59.38, "2022": 58.89, "2023": 62.87, "2024": 62.65, "2025": 61.2, "2026": 62.82}, "Summer": {"2020": 71.36, "2021": 79.49, "2022": 74.8, "2023": 79.09, "2024": 84.64, "2025": 78.78, "2026": 79.79}}}, "predictions_2027": {"Mulshi Dam (Mula Source)": {"Monsoon": 3.53, "Post-Monsoon": 6.76, "Winter": 7.79, "Summer": 11.06}, "Pashan Lake Inflow": {"Monsoon": 8.83, "Post-Monsoon": 11.22, "Winter": 18.66, "Summer": 21.27}, "Aundh": {"Monsoon": 14.28, "Post-Monsoon": 18.62, "Winter": 31.64, "Summer": 36.29}, "Bopodi": {"Monsoon": 17.99, "Post-Monsoon": 31.51, "Winter": 40.3, "Summer": 48.8}, "Sangam Bridge (Mula-Mutha Confluence)": {"Monsoon": 13.69, "Post-Monsoon": 27.0, "Winter": 29.97, "Summer": 40.59}, "Bund Garden": {"Monsoon": 25.4, "Post-Monsoon": 35.34, "Winter": 46.93, "Summer": 65.38}, "Mundhwa": {"Monsoon": 29.8, "Post-Monsoon": 44.01, "Winter": 61.25, "Summer": 79.9}, "Kharadi": {"Monsoon": 33.96, "Post-Monsoon": 53.41, "Winter": 71.79, "Summer": 89.74}, "Fursungi / Manjari": {"Monsoon": 36.59, "Post-Monsoon": 59.95, "Winter": 75.57, "Summer": 98.0}, "Confluence with Bhima River (Downstream Exit)": {"Monsoon": 29.39, "Post-Monsoon": 47.29, "Winter": 64.54, "Summer": 83.09}}};
+
+// ---------- state ----------
+let state = { seasonIdx: 3, yearIdx: 6 }; // default: Summer 2026 (most dramatic)
+let selectedLocId = null;
+let playing = false;
+let playTimer = null;
+
+// ---------- color scale ----------
+const COLOR_STOPS = [
+  {v:0,   c:[47,158,110]},   // clean green
+  {v:30,  c:[163,178,60]},   // moderate yellow-green
+  {v:55,  c:[224,162,62]},   // amber
+  {v:80,  c:[217,98,46]},    // orange
+  {v:100, c:[181,46,46]},    // severe red
+];
+function wpiColor(v){
+  v = Math.max(0, Math.min(100, v));
+  for(let i=0;i<COLOR_STOPS.length-1;i++){
+    const a = COLOR_STOPS[i], b = COLOR_STOPS[i+1];
+    if(v>=a.v && v<=b.v){
+      const t = (v-a.v)/(b.v-a.v);
+      const r = Math.round(a.c[0]+(b.c[0]-a.c[0])*t);
+      const g = Math.round(a.c[1]+(b.c[1]-a.c[1])*t);
+      const bl= Math.round(a.c[2]+(b.c[2]-a.c[2])*t);
+      return `rgb(${r},${g},${bl})`;
+    }
+  }
+  return 'rgb(181,46,46)';
+}
+function band(v){
+  if(v<20) return {label:'Clean', color:wpiColor(10)};
+  if(v<40) return {label:'Moderate', color:wpiColor(32)};
+  if(v<60) return {label:'Polluted', color:wpiColor(55)};
+  if(v<80) return {label:'Heavily Polluted', color:wpiColor(75)};
+  return {label:'Severe', color:wpiColor(95)};
+}
+
+// ---------- geometry: river path through 10 points ----------
+const PTS = [
+  {x:50,  y:190},
+  {x:175, y:110},
+  {x:290, y:255},
+  {x:390, y:120},
+  {x:465, y:230},   // Sangam confluence
+  {x:560, y:110},
+  {x:690, y:260},
+  {x:820, y:120},
+  {x:975, y:270},
+  {x:1150,y:180},
+];
+// Catmull-Rom -> cubic bezier control points for smooth segment i -> i+1
+function segControls(p0,p1,p2,p3){
+  const c1 = {x: p1.x + (p2.x - p0.x)/6, y: p1.y + (p2.y - p0.y)/6};
+  const c2 = {x: p2.x - (p3.x - p1.x)/6, y: p2.y - (p3.y - p1.y)/6};
+  return [c1,c2];
+}
+function buildSegments(){
+  const segs = [];
+  for(let i=0;i<PTS.length-1;i++){
+    const p0 = PTS[Math.max(0,i-1)];
+    const p1 = PTS[i];
+    const p2 = PTS[i+1];
+    const p3 = PTS[Math.min(PTS.length-1,i+2)];
+    const [c1,c2] = segControls(p0,p1,p2,p3);
+    segs.push({p1,p2,c1,c2});
+  }
+  return segs;
+}
+const SEGMENTS = buildSegments();
+
+// ---------- build SVG ----------
+const svg = document.getElementById('riverSvg');
+const NS = 'http://www.w3.org/2000/svg';
+function el(tag, attrs){
+  const e = document.createElementNS(NS, tag);
+  for(const k in attrs) e.setAttribute(k, attrs[k]);
+  return e;
+}
+
+const defs = el('defs',{});
+svg.appendChild(defs);
+
+// backdrop base river (soft blue, wider, behind colored flow)
+const baseGroup = el('g',{});
+SEGMENTS.forEach((s)=>{
+  const d = `M ${s.p1.x},${s.p1.y} C ${s.c1.x},${s.c1.y} ${s.c2.x},${s.c2.y} ${s.p2.x},${s.p2.y}`;
+  const path = el('path',{d, fill:'none', stroke:'#173840', 'stroke-width':26, 'stroke-linecap':'round'});
+  baseGroup.appendChild(path);
+});
+svg.appendChild(baseGroup);
+
+// colored flow segments (gradient per segment, updated on state change)
+const flowGroup = el('g',{});
+const flowPaths = [];
+SEGMENTS.forEach((s,i)=>{
+  const gradId = `grad-${i}`;
+  const grad = el('linearGradient',{id:gradId, x1:s.p1.x, y1:s.p1.y, x2:s.p2.x, y2:s.p2.y, gradientUnits:'userSpaceOnUse'});
+  const stop1 = el('stop',{offset:'0%','stop-color':'#2f9e6e'});
+  const stop2 = el('stop',{offset:'100%','stop-color':'#2f9e6e'});
+  grad.appendChild(stop1); grad.appendChild(stop2);
+  defs.appendChild(grad);
+
+  const d = `M ${s.p1.x},${s.p1.y} C ${s.c1.x},${s.c1.y} ${s.c2.x},${s.c2.y} ${s.p2.x},${s.p2.y}`;
+  const path = el('path',{d, class:'flow-seg', fill:'none', stroke:`url(#${gradId})`, 'stroke-width':16, 'stroke-linecap':'round'});
+  flowGroup.appendChild(path);
+  flowPaths.push({stop1, stop2, path});
+});
+svg.appendChild(flowGroup);
+
+// direction arrow marker along flow (subtle, static decoration at midpoints)
+const arrowGroup = el('g',{opacity:'0.35'});
+svg.appendChild(arrowGroup);
+
+// location dots + labels
+const dotGroup = el('g',{});
+const dots = [];
+PTS.forEach((p, i)=>{
+  const loc = DATA.locations[i];
+  const g = el('g',{class:'loc-dot', 'data-idx':i});
+  const halo = el('circle',{class:'halo', cx:p.x, cy:p.y, r:20, fill:'#ffffff'});
+  const ring = el('circle',{cx:p.x, cy:p.y, r:9, fill:'#0c1c1e', stroke:'#ffffff', 'stroke-width':2});
+  g.appendChild(halo);
+  g.appendChild(ring);
+
+  // label: alternate above/below to reduce collisions
+  const above = (p.y > 200);
+  const ly = above ? p.y - 18 : p.y + 26;
+  const label = el('text',{class:'loc-label', x:p.x, y:ly, 'text-anchor': i===0 ? 'start' : (i===PTS.length-1 ? 'end':'middle')});
+  label.textContent = loc.name.split(' (')[0];
+  g.appendChild(label);
+
+  const tag = el('text',{class:'wpi-tag', x:p.x, y: above ? p.y - 30 : p.y + 40, 'text-anchor': i===0 ? 'start' : (i===PTS.length-1 ? 'end':'middle')});
+  g.appendChild(tag);
+
+  g.addEventListener('click', ()=> selectLocation(i));
+  dotGroup.appendChild(g);
+  dots.push({ring, tag, g});
+});
+svg.appendChild(dotGroup);
+
+// ---------- season tabs ----------
+const seasonTabs = document.getElementById('seasonTabs');
+DATA.seasons.forEach((s, i)=>{
+  const btn = document.createElement('button');
+  btn.className = 'season-btn' + (i===state.seasonIdx ? ' active':'');
+  btn.textContent = s;
+  btn.addEventListener('click', ()=>{
+    state.seasonIdx = i;
+    document.querySelectorAll('.season-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    render();
+  });
+  seasonTabs.appendChild(btn);
+});
+
+// ---------- year slider ----------
+const yearSlider = document.getElementById('yearSlider');
+const yearNum = document.getElementById('yearNum');
+yearSlider.value = state.yearIdx;
+yearSlider.addEventListener('input', ()=>{
+  state.yearIdx = parseInt(yearSlider.value, 10);
+  render();
+});
+
+// ---------- play button ----------
+const playBtn = document.getElementById('playBtn');
+playBtn.addEventListener('click', ()=>{
+  playing = !playing;
+  playBtn.textContent = playing ? '❚❚' : '▶';
+  if(playing){
+    playTimer = setInterval(()=>{
+      state.yearIdx = (state.yearIdx + 1) % DATA.years.length;
+      yearSlider.value = state.yearIdx;
+      render();
+    }, 1100);
+  } else {
+    clearInterval(playTimer);
+  }
+});
+
+// ---------- render ----------
+function currentWpi(locName){
+  const year = DATA.years[state.yearIdx];
+  const season = DATA.seasons[state.seasonIdx];
+  if(year === 2027){
+    return DATA.predictions_2027[locName][season];
+  }
+  return DATA.wpi_by_location_season_year[locName][season][String(year)];
+}
+
+function render(){
+  const year = DATA.years[state.yearIdx];
+  const season = DATA.seasons[state.seasonIdx];
+  const isPred = year === 2027;
+  yearNum.textContent = year;
+  yearNum.classList.toggle('predicted', isPred);
+  document.getElementById('predFlag').classList.toggle('show', isPred);
+
+  const values = DATA.locations.map(l => currentWpi(l.name));
+
+  // update flow segment gradients
+  SEGMENTS.forEach((s,i)=>{
+    const c1 = wpiColor(values[i]);
+    const c2 = wpiColor(values[i+1]);
+    flowPaths[i].stop1.setAttribute('stop-color', c1);
+    flowPaths[i].stop2.setAttribute('stop-color', c2);
+    flowPaths[i].path.setAttribute('stroke-dasharray', isPred ? '2 10' : 'none');
+    flowPaths[i].path.setAttribute('opacity', isPred ? '0.85' : '1');
+  });
+
+  // update dots
+  dots.forEach((d,i)=>{
+    const v = values[i];
+    const c = wpiColor(v);
+    d.ring.setAttribute('stroke', c);
+    d.ring.setAttribute('r', 7 + (v/100)*7);
+    d.tag.textContent = v.toFixed(1);
+    d.tag.setAttribute('fill', c);
+    d.g.classList.toggle('selected', selectedLocId === i);
+  });
+
+  updateStats(values, season, year);
+  updateDetail(values, season, year);
+}
+
+function updateStats(values, season, year){
+  const box = document.getElementById('statsBody');
+  const sorted = DATA.locations.map((l,i)=>({name:l.name, v:values[i]})).sort((a,b)=>b.v-a.v);
+  const worst = sorted[0], best = sorted[sorted.length-1];
+  const avg = values.reduce((a,b)=>a+b,0)/values.length;
+  box.innerHTML = `
+    <div class="stat-row"><span class="name">Season / Year</span><span>${season} · ${year}</span></div>
+    <div class="stat-row"><span class="name">River average WPI</span><span>${avg.toFixed(1)}</span></div>
+    <div class="stat-row"><span class="name">Worst point</span><span>${worst.name.split(' (')[0]} (${worst.v.toFixed(1)})</span></div>
+    <div class="stat-row"><span class="name">Cleanest point</span><span>${best.name.split(' (')[0]} (${best.v.toFixed(1)})</span></div>
+  `;
+}
+
+function updateDetail(values, season, year){
+  const panel = document.getElementById('detailPanel');
+  const idx = selectedLocId === null ? DATA.locations.length-1 : selectedLocId; // default: downstream exit
+  const loc = DATA.locations[idx];
+  const v = values[idx];
+  const b = band(v);
+  const bod = (2 + v*0.55).toFixed(1);
+  const doo = Math.max(0.5, 8.5 - v*0.07).toFixed(1);
+  const fc = Math.round(Math.max(50, (v**2)*8));
+
+  panel.innerHTML = `
+    <h2>${loc.name}</h2>
+    <div class="sub">${loc.distance_km} km from source · ${season} ${year}${year===2027?' (forecast)':''}</div>
+    <div class="wpi-readout">
+      <span class="wpi-big" style="color:${b.color}">${v.toFixed(1)}</span>
+      <span class="wpi-band" style="background:${b.color}22; color:${b.color}; border:1px solid ${b.color}55">${b.label}</span>
+    </div>
+    <div class="metrics">
+      <div class="metric"><div class="label">BOD (est.)</div><div class="val">${bod} mg/L</div></div>
+      <div class="metric"><div class="label">Dissolved O₂ (est.)</div><div class="val">${doo} mg/L</div></div>
+      <div class="metric"><div class="label">Fecal coliform (est.)</div><div class="val">${fc.toLocaleString()} MPN/100mL</div></div>
+      <div class="metric"><div class="label">WPI scale</div><div class="val">0–100</div></div>
+    </div>
+    <div class="hint">Tap any point on the river map to inspect it. Drag the year slider or press ▶ to watch pollution rise in summer and flush out in monsoon.</div>
+  `;
+}
+
+function selectLocation(i){
+  selectedLocId = i;
+  render();
+}
+
+render();
+</script>
+</body>
+</html>
